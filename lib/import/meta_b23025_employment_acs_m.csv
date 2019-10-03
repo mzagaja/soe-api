@@ -1,0 +1,47 @@
+the_geom,cartodb_id,orderid,name,alias,details
+,1,1,join_key,Geographic Identifier,muni_id
+,2,2,title,Title,Employment
+,3,3,alt_title,Alternate Title,
+,4,4,tbl_table,Table Name,b23025_employment_acs_m
+,5,5,tbl_num,Table number from source data,b23025
+,6,6,geography,Spatial Geography,Municipalities
+,7,7,descriptn,Description,Employment status for the population 16 years and over
+,8,8,datesavail,Dates Available,5yr Avg 2007-11 through 2010-14
+,9,9,coverage,Coverage,Statewide
+,10,10,universe,Universe,Population 16 years and over
+,11,11,creator,Creator/Source,US Census: American Community Survey
+,12,12,publisher,Publisher,MAPC
+,13,13,contributr,Contributors,
+,14,14,createdate,CreationDate,
+,15,15,moddate,ModificationDate,2015-12
+,16,16,muni_id,Municipal ID,
+,17,17,municipal,Municipality,
+,18,18,geoid,Census Geographic Level ID,
+,19,19,logrecno,Census Logical Record Number,
+,20,20,acs_year,ACS Years,
+,21,21,pop16,Population 16 years and over,
+,22,22,pop16_me,"Population 16 years and over; Margin of Error",
+,23,23,lf,Labor Force,Civiliian and Armed Forces
+,24,24,lf_me,"Labor Force; Margin of Error",
+,25,25,clf,Civilian Labor Force,
+,26,26,clf_me,"Civilian Labor Force; Margin of Error",
+,27,27,emp,Employed,Civilian
+,28,28,emp_me,"Employed; Margin of Error",
+,29,29,unemp,Unemployed,Civilian
+,30,30,unemp_me,"Unemployed; Margin of Error",
+,31,31,aflf,Armed Forces,
+,32,32,aflf_me,"Armed Forces; Margin of Error",
+,33,33,nlf,Not in the Labor Force,
+,34,34,nlf_me,"Not in the Labor Force; Margin Of Error",
+,35,35,lf_p,% Labor Force,
+,36,36,lf_mep,"% Labor Force; Margin of Error",
+,37,37,clf_p,% Civilian Labor Force,
+,38,38,clf_mep,"% Civilian Labor Force; Margin of Error",
+,39,39,emp_p,% Employed,
+,40,40,emp_mep,"% Employed; Margin of Error",
+,41,41,unemp_p,% Unemployed,
+,42,42,unemp_mep,"% Unemployed; Margin of Error",
+,43,43,aflf_p,% Armed Forces,
+,44,44,aflf_mep,"% Armed Forces; Margin of Error",
+,45,45,nlf_p,% Not in the Labor Force,
+,46,46,nlf_mep,"% Not in the Labor Force; Margin Of Error",

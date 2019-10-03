@@ -1,0 +1,687 @@
+the_geom,cartodb_id,orderid,name,alias,details
+,1,1,join_key,Geographic Identifier,muni_id
+,2,2,title,Title,Employment Status by Race and Age
+,3,3,alt_title,Alternate Title,
+,4,4,tbl_table,Table Name,c23002_employment_by_race_age_acs_m
+,5,5,tbl_num,Table number from source data,b23002(a-i)races
+,6,6,geography,Spatial Geography,Municipalities
+,7,7,descriptn,Description,Employment Status by Race and Age for the Population 16 years and over 
+,8,8,datesavail,Dates Available,5yr Avg 2005-09 through 2010-14
+,9,9,coverage,Coverage,Statewide
+,10,10,universe,Universe,Population 16 years and over by race
+,11,11,creator,Creator/Source,US Census: American Community Survey
+,12,12,publisher,Publisher,MAPC
+,13,13,contributr,Contributors,
+,14,14,createdate,CreationDate,
+,15,15,moddate,ModificationDate,2016-09
+,16,16,muni_id,Municipal ID,
+,17,17,municipal,Municipality,
+,18,18,geoid,Census Geographic Level ID,
+,19,19,logrecno,Census Logical Record Number,
+,20,20,acs_year,ACS Years,
+,21,21,whi16,White population 16 years and over,
+,22,22,whi16_me,"White population 16 years and over; Margin of Error",
+,23,23,whilf,White Labor Force,White alone population 16 years and over in the Labor Force
+,24,24,whilfme,"White Labor Force; Margin of Error",
+,25,25,whiclf,White Civilian Labor Force,White alone population 16 years and over in the Civilian Labor Force
+,26,26,whiclfme,"White Civilian Labor Force; Margin of Error",
+,27,27,whiemp,White Employed Population,White alone population 16 years and over Employed in the Civilian Labor Force
+,28,28,whiempme,"White Employed Population; Margin of Error",
+,29,29,whiue,White Unemployed Population,White alone population 16 years and over Unemployed in the Civilian Labor Force
+,30,30,whiueme,"White Unemployed Population; Margin of Error",
+,31,31,whiaf,White Armed Forces Population,White alone population 16 years and over in the Armed Force
+,32,32,whiafme,"White Armed Forces Population; Margin of Error",
+,33,33,whinlf,White Population Not in the Labor Force,White alone population 16 years and over Not in the Labor Force
+,34,34,whinlfme,"White Population Not in the Labor Force; Margin of Error",
+,35,35,whi1664,White Population 16-64 Years,
+,36,36,whi1664me,"White Population 16-64 Years; Margin of Error",
+,37,37,whi64lf,White 16-64 Years in Labor Force,
+,38,38,whi64lfme,"White 16-64 Years in Labor Force; Margin of Error",
+,39,39,whi64clf,White 16-64 Years Civilian Labor Force,
+,40,40,whi64clfm,"White 16-64 Years Civilian Labor Force; Margin of Error",
+,41,41,whi64e,White Employed Population 16-64 Years,White alone population 16-64 Years Employed in the Civilian Labor Force
+,42,42,whi64e_me,"White Employed Population 16-64 Years; Margin of Error",
+,43,43,whi64ue,White Unemployed Population 16-64 Years,White alone population 16-64 Years Unemployed in the Civilian Labor Force
+,44,44,whi64ueme,"White Unemployed Population 16-64 Years; Margin of Error",
+,45,45,whi64af,White Armed Forces Population 16-64 Years,
+,46,46,whi64afme,"White Armed Forces Population 16-64 Years; Margin of Error",
+,47,47,whi64nlf,White Population 16-64 Years Not in the Labor Force,
+,48,48,whi64nlfm,"White Population 16-64 Years Not in the Labor Force; Margin of Error",
+,49,49,whi65o,White Population 65+ Years,
+,50,50,whi65ome,"White Population 65+ Years; Margin of Error",
+,51,51,whi65lf,White 65+ Years in Labor Force,
+,52,52,whi65lfme,"White 65+ Years in Labor Force; Margin of Error",
+,53,53,whi65e,White Employed Population 65+ Years,White alone population 65+  Years Employed in the Civilian Labor Force
+,54,54,whi65e_me,"White Employed Population 65+ Years; Margin of Error",
+,55,55,whi65ue,White Unemployed Population 65+ Years,White alone population 65+  Years Umemployed in the Civilian Labor Force
+,56,56,whi65ue_me,"White Unemployed Population 65+ Years; Margin of Error",
+,57,57,whi65nlf,White Population 65+ Years Not in the Labor Force,
+,58,58,whi65nlfm,"White Population 65+ Years Not in the Labor Force; Margin of Error",
+,59,59,whilf_p,% White Labor Force,Denominator: White alone population 16 years and over
+,60,60,whilfmep,"% White Labor Force; Margin of Error",
+,61,61,whiclf_p,% White Civilian Labor Force,Denominator: White alone population 16 years and over
+,62,62,whiclfmep,"% White Civilian Labor Force; Margin of Error",
+,63,63,whiemp_p,% White Employed Population,Employed in the Civilian Labor Force. Denominator: White alone population 16 years and over in the labor force
+,64,64,whiempmep,"% White Employed Population; Margin of Error",
+,65,65,whiue_p,% White Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: White alone population 16 years and over in labor force
+,66,66,whiuemep,"% White Unemployed Population; Margin of Error",
+,67,67,whiaf_p,% White Armed Forces Population,Denominator: White alone population 16 years and over
+,68,68,whiafmep,"% White Armed Forces Population; Margin of Error",
+,69,69,whinlf_p,% White Population Not in the Labor Force,Denominator: White alone population 16 years and over
+,70,70,whinlfmep ,"% White Population Not in the Labor Force; Margin of Error",
+,71,71,whi1664_p,% White Population 16-64 Years,Denominator: White alone population 16 years and over
+,72,72,whi1664mep,"% White Population 16-64 Years; Margin of Error",
+,73,73,whi64lf_p,% White 16-64 Years in Labor Force,Denominator: White alone population 16-64 Years
+,74,74,whi64lfmep,"% White 16-64 Years in Labor Force; Margin of Error",
+,196,196,na64nlfm,"American Indian Population 16-64 Years Not in the Labor Force; Margin of Error",
+,75,75,whi64clf_p,% White 16-64 Years Civilian Labor Force,Denominator: White alone population 16-64 Years
+,76,76,whi64clfmp,"% White 16-64 Years Civilian Labor Force; Margin of Error",
+,77,77,whi64e_p,% White Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: White alone population 16-64 years and over in the labor force
+,78,78,whi64emep,"% White Employed Population 16-64 Years; Margin of Error",
+,79,147,aa64lf_p,% Black 16-64 Years in Labor Force,Denominator: Black or African American alone population 16-64 Years
+,80,79,whi64ue_p,% White Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: White alone population 16-64 years and over in labor force
+,81,80,whi64uemep,"% White Unemployed Population 16-64 Years; Margin of Error",
+,82,81,whi64af_p,% White Armed Forces Population 16-64 Years,Denominator: White alone population 16-64 Years
+,83,82,whi64afmep,"% White Armed Forces Population 16-64 Years; Margin of Error",
+,84,83,whi64nlf_p,% White Population 16-64 Years Not in the Labor Force,Denominator: White alone population 16-64 Years
+,85,84,whi64nlfmp,"% White Population 16-64 Years Not in the Labor Force; Margin of Error",
+,86,85,whi65_p,% White Population 65+ Years,Denominator: White alone population 16 years and over
+,87,86,whi65mep,"% White Population 65+ Years; Margin of Error",
+,88,87,whi65lf_p,% White 65+ Years in Labor Force,Denominator: White alone population 65+ years
+,89,88,whi65lfmep,"% White 65+ Years in Labor Force; Margin of Error",
+,90,89,whi65e_p,% White Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: White alone population 65+ years in the labor force
+,91,90,whi65e_mep,"% White Employed Population 65+ Years; Margin of Error",
+,92,91,whi65ue_p,% White Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: White alone population 65+ years in labor force
+,93,92,whi65uemep,"% White Unemployed Population 65+ Years; Margin of Error",
+,94,93,whi65nlf_p,% White Population 65+ Years Not in the Labor Force,Denominator: White alone population 65+ years
+,95,94,whi65nlfmp,"% White Population 65+ Years Not in the Labor Force; Margin of Error",
+,96,95,aa16,Black population 16 years and over,
+,97,96,aa16_me,"Black population 16 years and over; Margin of Error",
+,98,97,aalf,Black Labor Force,Black or African American alone population 16 years and over in the Labor Force
+,99,98,aalfme,"Black Labor Force; Margin of Error",
+,100,99,aaclf,Black Civilian Labor Force,Black or African American alone population 16 years and over in the Civilian Labor Force
+,101,100,aaclfme,"Black Civilian Labor Force; Margin of Error",
+,102,101,aaemp,Black Employed Population,Black or African American alone population 16 years and over Employed in the Civilian Labor Force
+,103,102,aaempme,"Black Employed Population; Margin of Error",
+,104,103,aaue,Black Unemployed Population,Black or African American alone population 16 years and over Unemployed in the Civilian Labor Force
+,105,104,aaueme,"Black Unemployed Population; Margin of Error",
+,106,105,aaaf,Black Armed Forces Population,Black or African American alone population 16 years and over in the Armed Force
+,107,106,aaafme,"Black Armed Forces Population; Margin of Error",
+,108,107,aanlf,Black Population Not in the Labor Force,Black or African American alone population 16 years and over Not in the Labor Force
+,109,108,aanlfme,"Black Population Not in the Labor Force; Margin of Error",
+,110,109,aa1664,Black Population 16-64 Years,
+,111,110,aa1664me,"Black Population 16-64 Years; Margin of Error",
+,112,111,aa64lf,Black 16-64 Years in Labor Force,
+,113,112,aa64lfme,"Black 16-64 Years in Labor Force; Margin of Error",
+,114,113,aa64clf,Black 16-64 Years Civilian Labor Force,
+,115,114,aa64clfm,"Black 16-64 Years Civilian Labor Force; Margin of Error",
+,116,115,aa64e,Black Employed Population 16-64 Years,Black or African American alone population 16-64 Years Employed in the Civilian Labor Force
+,117,116,aa64e_me,"Black Employed Population 16-64 Years; Margin of Error",
+,118,117,aa64ue,Black Unemployed Population 16-64 Years,Black or African American alone population 16-64 Years Unemployed in the Civilian Labor Force
+,119,118,aa64ueme,"Black Unemployed Population 16-64 Years; Margin of Error",
+,120,119,aa64af,Black Armed Forces Population 16-64 Years,
+,121,120,aa64afme,"Black Armed Forces Population 16-64 Years; Margin of Error",
+,122,121,aa64nlf,Black Population 16-64 Years Not in the Labor Force,
+,123,122,aa64nlfm,"Black Population 16-64 Years Not in the Labor Force; Margin of Error",
+,124,123,aa65o,Black Population 65+ Years,
+,125,124,aa65ome,"Black Population 65+ Years; Margin of Error",
+,126,125,aa65lf,Black 65+ Years in Labor Force,
+,127,126,aa65lfme,"Black 65+ Years in Labor Force; Margin of Error",
+,128,127,aa65e,Black Employed Population 65+ Years,Black or African American alone population 65+  Years Employed in the Civilian Labor Force
+,129,128,aa65e_me,"Black Employed Population 65+ Years; Margin of Error",
+,130,129,aa65ue,Black Unemployed Population 65+ Years,Black or African American alone population 65+  Years Umemployed in the Civilian Labor Force
+,131,130,aa65ue_me,"Black Unemployed Population 65+ Years; Margin of Error",
+,132,131,aa65nlf,Black Population 65+ Years Not in the Labor Force,
+,133,132,aa65nlfm,"Black Population 65+ Years Not in the Labor Force; Margin of Error",
+,134,133,aalf_p,% Black Labor Force,Denominator: Black or African American alone population 16 years and over
+,135,134,aalfmep,"% Black Labor Force; Margin of Error",
+,136,135,aaclf_p,% Black Civilian Labor Force,Denominator: Black or African American alone population 16 years and over
+,137,136,aaclfmep,"% Black Civilian Labor Force; Margin of Error",
+,197,197,na65o,American Indian Population 65+ Years,
+,198,198,na65ome,"American Indian Population 65+ Years; Margin of Error",
+,138,137,aaemp_p,% Black Employed Population,Employed in the Civilian Labor Force. Denominator: Black or African American alone population 16 years and over in the labor force
+,139,138,aaempmep,"% Black Employed Population; Margin of Error",
+,140,139,aaue_p,% Black Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: Black or African American alone population 16 years and over in labor force
+,141,140,aauemep,"% Black Unemployed Population; Margin of Error",
+,142,141,aaaf_p,% Black Armed Forces Population,Denominator: Black or African American alone population 16 years and over
+,143,142,aaafmep,"% Black Armed Forces Population; Margin of Error",
+,144,143,aanlf_p,% Black Population Not in the Labor Force,Denominator: Black or African American alone population 16 years and over
+,145,144,aanlfmep ,"% Black Population Not in the Labor Force; Margin of Error",
+,146,145,aa1664_p,% Black Population 16-64 Years,Denominator: Black or African American alone population 16 years and over
+,147,146,aa1664mep,"% Black Population 16-64 Years; Margin of Error",
+,148,148,aa64lfmep,"% Black 16-64 Years in Labor Force; Margin of Error",
+,149,149,aa64clf_p,% Black 16-64 Years Civilian Labor Force,Denominator: Black or African American alone population 16-64 Years
+,150,150,aa64clfmp,"% Black 16-64 Years Civilian Labor Force; Margin of Error",
+,151,151,aa64e_p,% Black Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: Black or African American alone population 16-64 years and over in the labor force
+,152,152,aa64emep,"% Black Employed Population 16-64 Years; Margin of Error",
+,153,153,aa64ue_p,% Black Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: Black or African American alone population 16-64 years and over in labor force
+,154,154,aa64uemep,"% Black Unemployed Population 16-64 Years; Margin of Error",
+,155,155,aa64af_p,% Black Armed Forces Population 16-64 Years,Denominator: Black or African American alone population 16-64 Years
+,156,156,aa64afmep,"% Black Armed Forces Population 16-64 Years; Margin of Error",
+,157,157,aa64nlf_p,% Black Population 16-64 Years Not in the Labor Force,Denominator: Black or African American alone population 16-64 Years
+,158,158,aa64nlfmp,"% Black Population 16-64 Years Not in the Labor Force; Margin of Error",
+,159,159,aa65_p,% Black Population 65+ Years,Denominator: Black or African American alone population 16 years and over
+,160,160,aa65mep,"% Black Population 65+ Years; Margin of Error",
+,161,161,aa65lf_p,% Black 65+ Years in Labor Force,Denominator: Black or African American alone population 65+ years
+,162,162,aa65lfmep,"% Black 65+ Years in Labor Force; Margin of Error",
+,163,163,aa65e_p,% Black Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: Black or African American alone population 65+ years in the labor force
+,164,164,aa65e_mep,"% Black Employed Population 65+ Years; Margin of Error",
+,165,165,aa65ue_p,% Black Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: Black or African American alone population 65+ years in labor force
+,166,166,aa65uemep,"% Black Unemployed Population 65+ Years; Margin of Error",
+,167,167,aa65nlf_p,% Black Population 65+ Years Not in the Labor Force,Denominator: Black or African American alone population 65+ years
+,168,168,aa65nlfmp,"% Black Population 65+ Years Not in the Labor Force; Margin of Error",
+,169,169,na16,American Indian population 16 years and over,
+,170,170,na16_me,"American Indian population 16 years and over; Margin of Error",
+,171,171,nalf,American Indian Labor Force,American Indian and Alaska Native alone population 16 years and over in the Labor Force
+,172,172,nalfme,"American Indian Labor Force; Margin of Error",
+,173,173,naclf,American Indian Civilian Labor Force,American Indian and Alaska Native alone population 16 years and over in the Civilian Labor Force
+,174,174,naclfme,"American Indian Civilian Labor Force; Margin of Error",
+,175,175,naemp,American Indian Employed Population,American Indian and Alaska Native alone population 16 years and over Employed in the Civilian Labor Force
+,176,176,naempme,"American Indian Employed Population; Margin of Error",
+,177,177,naue,American Indian Unemployed Population,American Indian and Alaska Native alone population 16 years and over Unemployed in the Civilian Labor Force
+,178,178,naueme,"American Indian Unemployed Population; Margin of Error",
+,179,179,naaf,American Indian Armed Forces Population,American Indian and Alaska Native alone population 16 years and over in the Armed Force
+,180,180,naafme,"American Indian Armed Forces Population; Margin of Error",
+,181,181,nanlf,American Indian Population Not in the Labor Force,American Indian and Alaska Native alone population 16 years and over Not in the Labor Force
+,182,182,nanlfme,"American Indian Population Not in the Labor Force; Margin of Error",
+,183,183,na1664,American Indian Population 16-64 Years,
+,184,184,na1664me,"American Indian Population 16-64 Years; Margin of Error",
+,185,185,na64lf,American Indian 16-64 Years in Labor Force,
+,186,186,na64lfme,"American Indian 16-64 Years in Labor Force; Margin of Error",
+,187,187,na64clf,American Indian 16-64 Years Civilian Labor Force,
+,188,188,na64clfm,"American Indian 16-64 Years Civilian Labor Force; Margin of Error",
+,189,189,na64e,American Indian Employed Population 16-64 Years,American Indian and Alaska Native alone population 16-64 Years Employed in the Civilian Labor Force
+,190,190,na64e_me,"American Indian Employed Population 16-64 Years; Margin of Error",
+,191,191,na64ue,American Indian Unemployed Population 16-64 Years,American Indian and Alaska Native alone population 16-64 Years Unemployed in the Civilian Labor Force
+,192,192,na64ueme,"American Indian Unemployed Population 16-64 Years; Margin of Error",
+,193,193,na64af,American Indian Armed Forces Population 16-64 Years,
+,194,194,na64afme,"American Indian Armed Forces Population 16-64 Years; Margin of Error",
+,195,195,na64nlf,American Indian Population 16-64 Years Not in the Labor Force,
+,199,199,na65lf,American Indian 65+ Years in Labor Force,
+,200,200,na65lfme,"American Indian 65+ Years in Labor Force; Margin of Error",
+,201,201,na65e,American Indian Employed Population 65+ Years,American Indian and Alaska Native alone population 65+  Years Employed in the Civilian Labor Force
+,202,202,na65e_me,"American Indian Employed Population 65+ Years; Margin of Error",
+,203,203,na65ue,American Indian Unemployed Population 65+ Years,American Indian and Alaska Native alone population 65+  Years Umemployed in the Civilian Labor Force
+,204,204,na65ue_me,"American Indian Unemployed Population 65+ Years; Margin of Error",
+,205,205,na65nlf,American Indian Population 65+ Years Not in the Labor Force,
+,206,206,na65nlfm,"American Indian Population 65+ Years Not in the Labor Force; Margin of Error",
+,207,207,nalf_p,% American Indian Labor Force,Denominator: American Indian and Alaska Native alone population 16 years and over
+,208,208,nalfmep,"% American Indian Labor Force; Margin of Error",
+,209,209,naclf_p,% American Indian Civilian Labor Force,Denominator: American Indian and Alaska Native alone population 16 years and over
+,210,210,naclfmep,"% American Indian Civilian Labor Force; Margin of Error",
+,211,211,naemp_p,% American Indian Employed Population,Employed in the Civilian Labor Force. Denominator: American Indian and Alaska Native alone population 16 years and over in the labor force
+,212,212,naempmep,"% American Indian Employed Population; Margin of Error",
+,213,213,naue_p,% American Indian Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: American Indian and Alaska Native alone population 16 years and over in labor force
+,214,214,nauemep,"% American Indian Unemployed Population; Margin of Error",
+,215,215,naaf_p,% American Indian Armed Forces Population,Denominator: American Indian and Alaska Native alone population 16 years and over
+,216,216,naafmep,"% American Indian Armed Forces Population; Margin of Error",
+,217,217,nanlf_p,% American Indian Population Not in the Labor Force,Denominator: American Indian and Alaska Native alone population 16 years and over
+,218,218,nanlfmep ,"% American Indian Population Not in the Labor Force; Margin of Error",
+,219,219,na1664_p,% American Indian Population 16-64 Years,Denominator: American Indian and Alaska Native alone population 16 years and over
+,220,220,na1664mep,"% American Indian Population 16-64 Years; Margin of Error",
+,221,221,na64lf_p,% American Indian 16-64 Years in Labor Force,Denominator: American Indian and Alaska Native alone population 16-64 Years
+,222,222,na64lfmep,"% American Indian 16-64 Years in Labor Force; Margin of Error",
+,223,223,na64clf_p,% American Indian 16-64 Years Civilian Labor Force,Denominator: American Indian and Alaska Native alone population 16-64 Years
+,224,224,na64clfmp,"% American Indian 16-64 Years Civilian Labor Force; Margin of Error",
+,225,225,na64e_p,% American Indian Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: American Indian and Alaska Native alone population 16-64 years and over in the labor force
+,226,226,na64emep,"% American Indian Employed Population 16-64 Years; Margin of Error",
+,227,227,na64ue_p,% American Indian Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: American Indian and Alaska Native alone population 16-64 years and over in labor force
+,228,228,na64uemep,"% American Indian Unemployed Population 16-64 Years; Margin of Error",
+,229,229,na64af_p,% American Indian Armed Forces Population 16-64 Years,Denominator: American Indian and Alaska Native alone population 16-64 Years
+,230,230,na64afmep,"% American Indian Armed Forces Population 16-64 Years; Margin of Error",
+,231,231,na64nlf_p,% American Indian Population 16-64 Years Not in the Labor Force,Denominator: American Indian and Alaska Native alone population 16-64 Years
+,232,232,na64nlfmp,"% American Indian Population 16-64 Years Not in the Labor Force; Margin of Error",
+,233,233,na65_p,% American Indian Population 65+ Years,Denominator: American Indian and Alaska Native alone population 16 years and over
+,234,234,na65mep,"% American Indian Population 65+ Years; Margin of Error",
+,235,235,na65lf_p,% American Indian 65+ Years in Labor Force,Denominator: American Indian and Alaska Native alone population 65+ years
+,236,236,na65lfmep,"% American Indian 65+ Years in Labor Force; Margin of Error",
+,237,237,na65e_p,% American Indian Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: American Indian and Alaska Native alone population 65+ years in the labor force
+,238,238,na65e_mep,"% American Indian Employed Population 65+ Years; Margin of Error",
+,239,239,na65ue_p,% American Indian Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: American Indian and Alaska Native alone population 65+ years in labor force
+,240,240,na65uemep,"% American Indian Unemployed Population 65+ Years; Margin of Error",
+,241,241,na65nlf_p,% American Indian Population 65+ Years Not in the Labor Force,Denominator: American Indian and Alaska Native alone population 65+ years
+,242,242,na65nlfmp,"% American Indian Population 65+ Years Not in the Labor Force; Margin of Error",
+,243,243,as16,Asian population 16 years and over,
+,244,244,as16_me,"Asian population 16 years and over; Margin of Error",
+,245,245,aslf,Asian Labor Force,Asian alone population 16 years and over in the Labor Force
+,246,246,aslfme,"Asian Labor Force; Margin of Error",
+,247,247,asclf,Asian Civilian Labor Force,Asian alone population 16 years and over in the Civilian Labor Force
+,248,248,asclfme,"Asian Civilian Labor Force; Margin of Error",
+,249,249,asemp,Asian Employed Population,Asian alone population 16 years and over Employed in the Civilian Labor Force
+,250,250,asempme,"Asian Employed Population; Margin of Error",
+,251,251,asue,Asian Unemployed Population,Asian alone population 16 years and over Unemployed in the Civilian Labor Force
+,252,252,asueme,"Asian Unemployed Population; Margin of Error",
+,253,253,asaf,Asian Armed Forces Population,Asian alone population 16 years and over in the Armed Force
+,254,254,asafme,"Asian Armed Forces Population; Margin of Error",
+,320,320,pilfme,"Pacific Islander Labor Force; Margin of Error",
+,255,255,asnlf,Asian Population Not in the Labor Force,Asian alone population 16 years and over Not in the Labor Force
+,256,256,asnlfme,"Asian Population Not in the Labor Force; Margin of Error",
+,257,257,as1664,Asian Population 16-64 Years,
+,258,258,as1664me,"Asian Population 16-64 Years; Margin of Error",
+,259,259,as64lf,Asian 16-64 Years in Labor Force,
+,260,260,as64lfme,"Asian 16-64 Years in Labor Force; Margin of Error",
+,261,261,as64clf,Asian 16-64 Years Civilian Labor Force,
+,262,262,as64clfm,"Asian 16-64 Years Civilian Labor Force; Margin of Error",
+,263,263,as64e,Asian Employed Population 16-64 Years,Asian alone population 16-64 Years Employed in the Civilian Labor Force
+,264,264,as64e_me,"Asian Employed Population 16-64 Years; Margin of Error",
+,265,265,as64ue,Asian Unemployed Population 16-64 Years,Asian alone population 16-64 Years Unemployed in the Civilian Labor Force
+,266,266,as64ueme,"Asian Unemployed Population 16-64 Years; Margin of Error",
+,267,267,as64af,Asian Armed Forces Population 16-64 Years,
+,268,268,as64afme,"Asian Armed Forces Population 16-64 Years; Margin of Error",
+,269,269,as64nlf,Asian Population 16-64 Years Not in the Labor Force,
+,270,270,as64nlfm,"Asian Population 16-64 Years Not in the Labor Force; Margin of Error",
+,271,271,as65o,Asian Population 65+ Years,
+,272,272,as65ome,"Asian Population 65+ Years; Margin of Error",
+,273,273,as65lf,Asian 65+ Years in Labor Force,
+,274,274,as65lfme,"Asian 65+ Years in Labor Force; Margin of Error",
+,275,275,as65e,Asian Employed Population 65+ Years,Asian alone population 65+  Years Employed in the Civilian Labor Force
+,276,276,as65e_me,"Asian Employed Population 65+ Years; Margin of Error",
+,277,277,as65ue,Asian Unemployed Population 65+ Years,Asian alone population 65+  Years Umemployed in the Civilian Labor Force
+,278,278,as65ue_me,"Asian Unemployed Population 65+ Years; Margin of Error",
+,279,279,as65nlf,Asian Population 65+ Years Not in the Labor Force,
+,280,280,as65nlfm,"Asian Population 65+ Years Not in the Labor Force; Margin of Error",
+,281,281,aslf_p,% Asian Labor Force,Denominator: Asian alone population 16 years and over
+,282,282,aslfmep,"% Asian Labor Force; Margin of Error",
+,283,283,asclf_p,% Asian Civilian Labor Force,Denominator: Asian alone population 16 years and over
+,284,284,asclfmep,"% Asian Civilian Labor Force; Margin of Error",
+,285,285,asemp_p,% Asian Employed Population,Employed in the Civilian Labor Force. Denominator: Asian alone population 16 years and over in the labor force
+,286,286,asempmep,"% Asian Employed Population; Margin of Error",
+,287,287,asue_p,% Asian Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: Asian alone population 16 years and over in labor force
+,288,288,asuemep,"% Asian Unemployed Population; Margin of Error",
+,289,289,asaf_p,% Asian Armed Forces Population,Denominator: Asian alone population 16 years and over
+,290,290,asafmep,"% Asian Armed Forces Population; Margin of Error",
+,291,291,asnlf_p,% Asian Population Not in the Labor Force,Denominator: Asian alone population 16 years and over
+,292,292,asnlfmep ,"% Asian Population Not in the Labor Force; Margin of Error",
+,293,293,as1664_p,% Asian Population 16-64 Years,Denominator: Asian alone population 16 years and over
+,294,294,as1664mep,"% Asian Population 16-64 Years; Margin of Error",
+,295,295,as64lf_p,% Asian 16-64 Years in Labor Force,Denominator: Asian alone population 16-64 Years
+,296,296,as64lfmep,"% Asian 16-64 Years in Labor Force; Margin of Error",
+,297,297,as64clf_p,% Asian 16-64 Years Civilian Labor Force,Denominator: Asian alone population 16-64 Years
+,298,298,as64clfmp,"% Asian 16-64 Years Civilian Labor Force; Margin of Error",
+,299,299,as64e_p,% Asian Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: Asian alone population 16-64 years and over in the labor force
+,300,300,as64emep,"% Asian Employed Population 16-64 Years; Margin of Error",
+,301,301,as64ue_p,% Asian Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: Asian alone population 16-64 years and over in labor force
+,302,302,as64uemep,"% Asian Unemployed Population 16-64 Years; Margin of Error",
+,303,303,as64af_p,% Asian Armed Forces Population 16-64 Years,Denominator: Asian alone population 16-64 Years
+,304,304,as64afmep,"% Asian Armed Forces Population 16-64 Years; Margin of Error",
+,305,305,as64nlf_p,% Asian Population 16-64 Years Not in the Labor Force,Denominator: Asian alone population 16-64 Years
+,306,306,as64nlfmp,"% Asian Population 16-64 Years Not in the Labor Force; Margin of Error",
+,307,307,as65_p,% Asian Population 65+ Years,Denominator: Asian alone population 16 years and over
+,308,308,as65mep,"% Asian Population 65+ Years; Margin of Error",
+,309,309,as65lf_p,% Asian 65+ Years in Labor Force,Denominator: Asian alone population 65+ years
+,310,310,as65lfmep,"% Asian 65+ Years in Labor Force; Margin of Error",
+,311,311,as65e_p,% Asian Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: Asian alone population 65+ years in the labor force
+,312,312,as65e_mep,"% Asian Employed Population 65+ Years; Margin of Error",
+,313,313,as65ue_p,% Asian Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: Asian alone population 65+ years in labor force
+,314,314,as65uemep,"% Asian Unemployed Population 65+ Years; Margin of Error",
+,315,315,as65nlf_p,% Asian Population 65+ Years Not in the Labor Force,Denominator: Asian alone population 65+ years
+,316,316,as65nlfmp,"% Asian Population 65+ Years Not in the Labor Force; Margin of Error",
+,317,317,pi16,Pacific Islander population 16 years and over,
+,318,318,pi16_me,"Pacific Islander population 16 years and over; Margin of Error",
+,319,319,pilf,Pacific Islander Labor Force,Native Hawaiian and Other Pacific Islander alone population 16 years and over in the Labor Force
+,321,321,piclf,Pacific Islander Civilian Labor Force,Native Hawaiian and Other Pacific Islander alone population 16 years and over in the Civilian Labor Force
+,322,322,piclfme,"Pacific Islander Civilian Labor Force; Margin of Error",
+,323,323,piemp,Pacific Islander Employed Population,Native Hawaiian and Other Pacific Islander alone population 16 years and over Employed in the Civilian Labor Force
+,324,324,piempme,"Pacific Islander Employed Population; Margin of Error",
+,325,325,piue,Pacific Islander Unemployed Population,Native Hawaiian and Other Pacific Islander alone population 16 years and over Unemployed in the Civilian Labor Force
+,326,326,piueme,"Pacific Islander Unemployed Population; Margin of Error",
+,327,327,piaf,Pacific Islander Armed Forces Population,Native Hawaiian and Other Pacific Islander alone population 16 years and over in the Armed Force
+,328,328,piafme,"Pacific Islander Armed Forces Population; Margin of Error",
+,329,329,pinlf,Pacific Islander Population Not in the Labor Force,Native Hawaiian and Other Pacific Islander alone population 16 years and over Not in the Labor Force
+,330,330,pinlfme,"Pacific Islander Population Not in the Labor Force; Margin of Error",
+,331,331,pi1664,Pacific Islander Population 16-64 Years,
+,332,332,pi1664me,"Pacific Islander Population 16-64 Years; Margin of Error",
+,333,333,pi64lf,Pacific Islander 16-64 Years in Labor Force,
+,334,334,pi64lfme,"Pacific Islander 16-64 Years in Labor Force; Margin of Error",
+,335,335,pi64clf,Pacific Islander 16-64 Years Civilian Labor Force,
+,336,336,pi64clfm,"Pacific Islander 16-64 Years Civilian Labor Force; Margin of Error",
+,337,337,pi64e,Pacific Islander Employed Population 16-64 Years,Native Hawaiian and Other Pacific Islander alone population 16-64 Years Employed in the Civilian Labor Force
+,338,338,pi64e_me,"Pacific Islander Employed Population 16-64 Years; Margin of Error",
+,339,339,pi64ue,Pacific Islander Unemployed Population 16-64 Years,Native Hawaiian and Other Pacific Islander alone population 16-64 Years Unemployed in the Civilian Labor Force
+,340,340,pi64ueme,"Pacific Islander Unemployed Population 16-64 Years; Margin of Error",
+,341,341,pi64af,Pacific Islander Armed Forces Population 16-64 Years,
+,342,342,pi64afme,"Pacific Islander Armed Forces Population 16-64 Years; Margin of Error",
+,343,343,pi64nlf,Pacific Islander Population 16-64 Years Not in the Labor Force,
+,344,344,pi64nlfm,"Pacific Islander Population 16-64 Years Not in the Labor Force; Margin of Error",
+,345,345,pi65o,Pacific Islander Population 65+ Years,
+,346,346,pi65ome,"Pacific Islander Population 65+ Years; Margin of Error",
+,347,347,pi65lf,Pacific Islander 65+ Years in Labor Force,
+,348,348,pi65lfme,"Pacific Islander 65+ Years in Labor Force; Margin of Error",
+,349,349,pi65e,Pacific Islander Employed Population 65+ Years,Native Hawaiian and Other Pacific Islander alone population 65+  Years Employed in the Civilian Labor Force
+,350,350,pi65e_me,"Pacific Islander Employed Population 65+ Years; Margin of Error",
+,351,351,pi65ue,Pacific Islander Unemployed Population 65+ Years,Native Hawaiian and Other Pacific Islander alone population 65+  Years Umemployed in the Civilian Labor Force
+,352,352,pi65ue_me,"Pacific Islander Unemployed Population 65+ Years; Margin of Error",
+,353,353,pi65nlf,Pacific Islander Population 65+ Years Not in the Labor Force,
+,354,354,pi65nlfm,"Pacific Islander Population 65+ Years Not in the Labor Force; Margin of Error",
+,355,355,pilf_p,% Pacific Islander Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over
+,356,356,pilfmep,"% Pacific Islander Labor Force; Margin of Error",
+,357,357,piclf_p,% Pacific Islander Civilian Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over
+,358,358,piclfmep,"% Pacific Islander Civilian Labor Force; Margin of Error",
+,359,359,piemp_p,% Pacific Islander Employed Population,Employed in the Civilian Labor Force. Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over in the labor force
+,360,360,piempmep,"% Pacific Islander Employed Population; Margin of Error",
+,361,361,piue_p,% Pacific Islander Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over in labor force
+,362,362,piuemep,"% Pacific Islander Unemployed Population; Margin of Error",
+,363,363,piaf_p,% Pacific Islander Armed Forces Population,Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over
+,364,364,piafmep,"% Pacific Islander Armed Forces Population; Margin of Error",
+,365,365,pinlf_p,% Pacific Islander Population Not in the Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over
+,366,366,pinlfmep ,"% Pacific Islander Population Not in the Labor Force; Margin of Error",
+,367,367,pi1664_p,% Pacific Islander Population 16-64 Years,Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over
+,368,368,pi1664mep,"% Pacific Islander Population 16-64 Years; Margin of Error",
+,369,369,pi64lf_p,% Pacific Islander 16-64 Years in Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 16-64 Years
+,370,370,pi64lfmep,"% Pacific Islander 16-64 Years in Labor Force; Margin of Error",
+,371,371,pi64clf_p,% Pacific Islander 16-64 Years Civilian Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 16-64 Years
+,372,372,pi64clfmp,"% Pacific Islander 16-64 Years Civilian Labor Force; Margin of Error",
+,373,373,pi64e_p,% Pacific Islander Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: Native Hawaiian and Other Pacific Islander alone population 16-64 years and over in the labor force
+,374,374,pi64emep,"% Pacific Islander Employed Population 16-64 Years; Margin of Error",
+,375,375,pi64ue_p,% Pacific Islander Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: Native Hawaiian and Other Pacific Islander alone population 16-64 years and over in labor force
+,376,376,pi64uemep,"% Pacific Islander Unemployed Population 16-64 Years; Margin of Error",
+,377,377,pi64af_p,% Pacific Islander Armed Forces Population 16-64 Years,Denominator: Native Hawaiian and Other Pacific Islander alone population 16-64 Years
+,378,378,pi64afmep,"% Pacific Islander Armed Forces Population 16-64 Years; Margin of Error",
+,379,379,pi64nlf_p,% Pacific Islander Population 16-64 Years Not in the Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 16-64 Years
+,380,380,pi64nlfmp,"% Pacific Islander Population 16-64 Years Not in the Labor Force; Margin of Error",
+,381,381,pi65_p,% Pacific Islander Population 65+ Years,Denominator: Native Hawaiian and Other Pacific Islander alone population 16 years and over
+,382,382,pi65mep,"% Pacific Islander Population 65+ Years; Margin of Error",
+,383,383,pi65lf_p,% Pacific Islander 65+ Years in Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 65+ years
+,384,384,pi65lfmep,"% Pacific Islander 65+ Years in Labor Force; Margin of Error",
+,385,385,pi65e_p,% Pacific Islander Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: Native Hawaiian and Other Pacific Islander alone population 65+ years in the labor force
+,386,386,pi65e_mep,"% Pacific Islander Employed Population 65+ Years; Margin of Error",
+,387,387,pi65ue_p,% Pacific Islander Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: Native Hawaiian and Other Pacific Islander alone population 65+ years in labor force
+,388,388,pi65uemep,"% Pacific Islander Unemployed Population 65+ Years; Margin of Error",
+,389,389,pi65nlf_p,% Pacific Islander Population 65+ Years Not in the Labor Force,Denominator: Native Hawaiian and Other Pacific Islander alone population 65+ years
+,390,390,pi65nlfmp,"% Pacific Islander Population 65+ Years Not in the Labor Force; Margin of Error",
+,391,391,oth16,Other Race population 16 years and over,
+,392,392,oth16_me,"Other Race population 16 years and over; Margin of Error",
+,393,393,othlf,Other Race Labor Force,Some other race alone population 16 years and over in the Labor Force
+,394,394,othlfme,"Other Race Labor Force; Margin of Error",
+,395,395,othclf,Other Race Civilian Labor Force,Some other race alone population 16 years and over in the Civilian Labor Force
+,396,396,othclfme,"Other Race Civilian Labor Force; Margin of Error",
+,397,397,othemp,Other Race Employed Population,Some other race alone population 16 years and over Employed in the Civilian Labor Force
+,398,398,othempme,"Other Race Employed Population; Margin of Error",
+,399,399,othue,Other Race Unemployed Population,Some other race alone population 16 years and over Unemployed in the Civilian Labor Force
+,400,400,othueme,"Other Race Unemployed Population; Margin of Error",
+,401,401,othaf,Other Race Armed Forces Population,Some other race alone population 16 years and over in the Armed Force
+,402,402,othafme,"Other Race Armed Forces Population; Margin of Error",
+,403,403,othnlf,Other Race Population Not in the Labor Force,Some other race alone population 16 years and over Not in the Labor Force
+,404,404,othnlfme,"Other Race Population Not in the Labor Force; Margin of Error",
+,405,405,oth1664,Other Race Population 16-64 Years,
+,406,406,oth1664me,"Other Race Population 16-64 Years; Margin of Error",
+,407,407,oth64lf,Other Race 16-64 Years in Labor Force,
+,408,408,oth64lfme,"Other Race 16-64 Years in Labor Force; Margin of Error",
+,409,409,oth64clf,Other Race 16-64 Years Civilian Labor Force,
+,410,410,oth64clfm,"Other Race 16-64 Years Civilian Labor Force; Margin of Error",
+,411,411,oth64e,Other Race Employed Population 16-64 Years,Some other race alone population 16-64 Years Employed in the Civilian Labor Force
+,412,412,oth64e_me,"Other Race Employed Population 16-64 Years; Margin of Error",
+,413,413,oth64ue,Other Race Unemployed Population 16-64 Years,Some other race alone population 16-64 Years Unemployed in the Civilian Labor Force
+,414,414,oth64ueme,"Other Race Unemployed Population 16-64 Years; Margin of Error",
+,415,415,oth64af,Other Race Armed Forces Population 16-64 Years,
+,416,416,oth64afme,"Other Race Armed Forces Population 16-64 Years; Margin of Error",
+,417,417,oth64nlf,Other Race Population 16-64 Years Not in the Labor Force,
+,418,418,oth64nlfm,"Other Race Population 16-64 Years Not in the Labor Force; Margin of Error",
+,419,419,oth65o,Other Race Population 65+ Years,
+,420,420,oth65ome,"Other Race Population 65+ Years; Margin of Error",
+,421,421,oth65lf,Other Race 65+ Years in Labor Force,
+,422,422,oth65lfme,"Other Race 65+ Years in Labor Force; Margin of Error",
+,423,423,oth65e,Other Race Employed Population 65+ Years,Some other race alone population 65+  Years Employed in the Civilian Labor Force
+,424,424,oth65e_me,"Other Race Employed Population 65+ Years; Margin of Error",
+,425,425,oth65ue,Other Race Unemployed Population 65+ Years,Some other race alone population 65+  Years Umemployed in the Civilian Labor Force
+,426,426,oth65ue_me,"Other Race Unemployed Population 65+ Years; Margin of Error",
+,427,427,oth65nlf,Other Race Population 65+ Years Not in the Labor Force,
+,428,428,oth65nlfm,"Other Race Population 65+ Years Not in the Labor Force; Margin of Error",
+,429,429,othlf_p,% Other Race Labor Force,Denominator: Some other race alone population 16 years and over
+,430,430,othlfmep,"% Other Race Labor Force; Margin of Error",
+,431,431,othclf_p,% Other Race Civilian Labor Force,Denominator: Some other race alone population 16 years and over
+,432,432,othclfmep,"% Other Race Civilian Labor Force; Margin of Error",
+,433,433,othemp_p,% Other Race Employed Population,Employed in the Civilian Labor Force. Denominator: Some other race alone population 16 years and over in the labor force
+,434,434,othempmep,"% Other Race Employed Population; Margin of Error",
+,435,435,othue_p,% Other Race Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: Some other race alone population 16 years and over in labor force
+,436,436,othuemep,"% Other Race Unemployed Population; Margin of Error",
+,437,437,othaf_p,% Other Race Armed Forces Population,Denominator: Some other race alone population 16 years and over
+,438,438,othafmep,"% Other Race Armed Forces Population; Margin of Error",
+,439,439,othnlf_p,% Other Race Population Not in the Labor Force,Denominator: Some other race alone population 16 years and over
+,440,440,othnlfmep ,"% Other Race Population Not in the Labor Force; Margin of Error",
+,441,441,oth1664_p,% Other Race Population 16-64 Years,Denominator: Some other race alone population 16 years and over
+,442,442,oth1664mep,"% Other Race Population 16-64 Years; Margin of Error",
+,443,443,oth64lf_p,% Other Race 16-64 Years in Labor Force,Denominator: Some other race alone population 16-64 Years
+,444,444,oth64lfmep,"% Other Race 16-64 Years in Labor Force; Margin of Error",
+,445,445,oth64clf_p,% Other Race 16-64 Years Civilian Labor Force,Denominator: Some other race alone population 16-64 Years
+,446,446,oth64clfmp,"% Other Race 16-64 Years Civilian Labor Force; Margin of Error",
+,447,447,oth64e_p,% Other Race Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: Some other race alone population 16-64 years and over in the labor force
+,448,448,oth64emep,"% Other Race Employed Population 16-64 Years; Margin of Error",
+,449,449,oth64ue_p,% Other Race Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: Some other race alone population 16-64 years and over in labor force
+,450,450,oth64uemep,"% Other Race Unemployed Population 16-64 Years; Margin of Error",
+,451,451,oth64af_p,% Other Race Armed Forces Population 16-64 Years,Denominator: Some other race alone population 16-64 Years
+,452,452,oth64afmep,"% Other Race Armed Forces Population 16-64 Years; Margin of Error",
+,453,453,oth64nlf_p,% Other Race Population 16-64 Years Not in the Labor Force,Denominator: Some other race alone population 16-64 Years
+,454,454,oth64nlfmp,"% Other Race Population 16-64 Years Not in the Labor Force; Margin of Error",
+,455,455,oth65_p,% Other Race Population 65+ Years,Denominator: Some other race alone population 16 years and over
+,456,456,oth65mep,"% Other Race Population 65+ Years; Margin of Error",
+,457,457,oth65lf_p,% Other Race 65+ Years in Labor Force,Denominator: Some other race alone population 65+ years
+,458,458,oth65lfmep,"% Other Race 65+ Years in Labor Force; Margin of Error",
+,459,459,oth65e_p,% Other Race Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: Some other race alone population 65+ years in the labor force
+,460,460,oth65e_mep,"% Other Race Employed Population 65+ Years; Margin of Error",
+,461,461,oth65ue_p,% Other Race Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: Some other race alone population 65+ years in labor force
+,462,462,oth65uemep,"% Other Race Unemployed Population 65+ Years; Margin of Error",
+,463,463,oth65nlf_p,% Other Race Population 65+ Years Not in the Labor Force,Denominator: Some other race alone population 65+ years
+,464,464,oth65nlfmp,"% Other Race Population 65+ Years Not in the Labor Force; Margin of Error",
+,465,465,mlt16,Multi-Race population 16 years and over,
+,466,466,mlt16_me,"Multi-Race population 16 years and over; Margin of Error",
+,467,467,mltlf,Multi-Race Labor Force,Two or more races population 16 years and over in the Labor Force
+,468,468,mltlfme,"Multi-Race Labor Force; Margin of Error",
+,469,469,mltclf,Multi-Race Civilian Labor Force,Two or more races population 16 years and over in the Civilian Labor Force
+,470,470,mltclfme,"Multi-Race Civilian Labor Force; Margin of Error",
+,471,471,mltemp,Multi-Race Employed Population,Two or more races population 16 years and over Employed in the Civilian Labor Force
+,472,472,mltempme,"Multi-Race Employed Population; Margin of Error",
+,473,473,mltue,Multi-Race Unemployed Population,Two or more races population 16 years and over Unemployed in the Civilian Labor Force
+,474,474,mltueme,"Multi-Race Unemployed Population; Margin of Error",
+,475,475,mltaf,Multi-Race Armed Forces Population,Two or more races population 16 years and over in the Armed Force
+,476,476,mltafme,"Multi-Race Armed Forces Population; Margin of Error",
+,477,477,mltnlf,Multi-Race Population Not in the Labor Force,Two or more races population 16 years and over Not in the Labor Force
+,478,478,mltnlfme,"Multi-Race Population Not in the Labor Force; Margin of Error",
+,479,479,mlt1664,Multi-Race Population 16-64 Years,
+,480,480,mlt1664me,"Multi-Race Population 16-64 Years; Margin of Error",
+,481,481,mlt64lf,Multi-Race 16-64 Years in Labor Force,
+,482,482,mlt64lfme,"Multi-Race 16-64 Years in Labor Force; Margin of Error",
+,483,483,mlt64clf,Multi-Race 16-64 Years Civilian Labor Force,
+,484,484,mlt64clfm,"Multi-Race 16-64 Years Civilian Labor Force; Margin of Error",
+,485,485,mlt64e,Multi-Race Employed Population 16-64 Years,Two or more races population 16-64 Years Employed in the Civilian Labor Force
+,486,486,mlt64e_me,"Multi-Race Employed Population 16-64 Years; Margin of Error",
+,487,487,mlt64ue,Multi-Race Unemployed Population 16-64 Years,Two or more races population 16-64 Years Unemployed in the Civilian Labor Force
+,488,488,mlt64ueme,"Multi-Race Unemployed Population 16-64 Years; Margin of Error",
+,489,489,mlt64af,Multi-Race Armed Forces Population 16-64 Years,
+,490,490,mlt64afme,"Multi-Race Armed Forces Population 16-64 Years; Margin of Error",
+,491,491,mlt64nlf,Multi-Race Population 16-64 Years Not in the Labor Force,
+,492,492,mlt64nlfm,"Multi-Race Population 16-64 Years Not in the Labor Force; Margin of Error",
+,493,493,mlt65o,Multi-Race Population 65+ Years,
+,494,494,mlt65ome,"Multi-Race Population 65+ Years; Margin of Error",
+,495,495,mlt65lf,Multi-Race 65+ Years in Labor Force,
+,496,496,mlt65lfme,"Multi-Race 65+ Years in Labor Force; Margin of Error",
+,497,497,mlt65e,Multi-Race Employed Population 65+ Years,Two or more races population 65+  Years Employed in the Civilian Labor Force
+,498,498,mlt65e_me,"Multi-Race Employed Population 65+ Years; Margin of Error",
+,499,499,mlt65ue,Multi-Race Unemployed Population 65+ Years,Two or more races population 65+  Years Umemployed in the Civilian Labor Force
+,500,500,mlt65ue_me,"Multi-Race Unemployed Population 65+ Years; Margin of Error",
+,501,501,mlt65nlf,Multi-Race Population 65+ Years Not in the Labor Force,
+,502,502,mlt65nlfm,"Multi-Race Population 65+ Years Not in the Labor Force; Margin of Error",
+,503,503,mltlf_p,% Multi-Race Labor Force,Denominator: Two or more races population 16 years and over
+,504,504,mltlfmep,"% Multi-Race Labor Force; Margin of Error",
+,505,505,mltclf_p,% Multi-Race Civilian Labor Force,Denominator: Two or more races population 16 years and over
+,506,506,mltclfmep,"% Multi-Race Civilian Labor Force; Margin of Error",
+,507,507,mltemp_p,% Multi-Race Employed Population,Employed in the Civilian Labor Force. Denominator: Two or more races population 16 years and over in the labor force
+,508,508,mltempmep,"% Multi-Race Employed Population; Margin of Error",
+,509,509,mltue_p,% Multi-Race Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: Two or more races population 16 years and over in labor force
+,510,510,mltuemep,"% Multi-Race Unemployed Population; Margin of Error",
+,511,511,mltaf_p,% Multi-Race Armed Forces Population,Denominator: Two or more races population 16 years and over
+,512,512,mltafmep,"% Multi-Race Armed Forces Population; Margin of Error",
+,513,513,mltnlf_p,% Multi-Race Population Not in the Labor Force,Denominator: Two or more races population 16 years and over
+,514,514,mltnlfmep ,"% Multi-Race Population Not in the Labor Force; Margin of Error",
+,515,515,mlt1664_p,% Multi-Race Population 16-64 Years,Denominator: Two or more races population 16 years and over
+,516,516,mlt1664mep,"% Multi-Race Population 16-64 Years; Margin of Error",
+,517,517,mlt64lf_p,% Multi-Race 16-64 Years in Labor Force,Denominator: Two or more races population 16-64 Years
+,518,518,mlt64lfmep,"% Multi-Race 16-64 Years in Labor Force; Margin of Error",
+,519,519,mlt64clf_p,% Multi-Race 16-64 Years Civilian Labor Force,Denominator: Two or more races population 16-64 Years
+,520,520,mlt64clfmp,"% Multi-Race 16-64 Years Civilian Labor Force; Margin of Error",
+,521,521,mlt64e_p,% Multi-Race Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: Two or more races population 16-64 years and over in the labor force
+,522,522,mlt64emep,"% Multi-Race Employed Population 16-64 Years; Margin of Error",
+,523,523,mlt64ue_p,% Multi-Race Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: Two or more races population 16-64 years and over in labor force
+,524,524,mlt64uemep,"% Multi-Race Unemployed Population 16-64 Years; Margin of Error",
+,525,525,mlt64af_p,% Multi-Race Armed Forces Population 16-64 Years,Denominator: Two or more races population 16-64 Years
+,526,526,mlt64afmep,"% Multi-Race Armed Forces Population 16-64 Years; Margin of Error",
+,527,527,mlt64nlf_p,% Multi-Race Population 16-64 Years Not in the Labor Force,Denominator: Two or more races population 16-64 Years
+,528,528,mlt64nlfmp,"% Multi-Race Population 16-64 Years Not in the Labor Force; Margin of Error",
+,529,529,mlt65_p,% Multi-Race Population 65+ Years,Denominator: Two or more races population 16 years and over
+,530,530,mlt65mep,"% Multi-Race Population 65+ Years; Margin of Error",
+,531,531,mlt65lf_p,% Multi-Race 65+ Years in Labor Force,Denominator: Two or more races population 65+ years
+,532,532,mlt65lfmep,"% Multi-Race 65+ Years in Labor Force; Margin of Error",
+,533,533,mlt65e_p,% Multi-Race Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: Two or more races population 65+ years in the labor force
+,534,534,mlt65e_mep,"% Multi-Race Employed Population 65+ Years; Margin of Error",
+,535,535,mlt65ue_p,% Multi-Race Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: Two or more races population 65+ years in labor force
+,536,536,mlt65uemep,"% Multi-Race Unemployed Population 65+ Years; Margin of Error",
+,537,537,mlt65nlf_p,% Multi-Race Population 65+ Years Not in the Labor Force,Denominator: Two or more races population 65+ years
+,538,538,mlt65nlfmp,"% Multi-Race Population 65+ Years Not in the Labor Force; Margin of Error",
+,539,539,nhw16,White Non-Hispanic population 16 years and over,
+,540,540,nhw16_me,"White Non-Hispanic population 16 years and over; Margin of Error",
+,541,541,nhwlf,White Non-Hispanic Labor Force,White alone not Hispanic or Latino population 16 years and over in the Labor Force
+,542,542,nhwlfme,"White Non-Hispanic Labor Force; Margin of Error",
+,543,543,nhwclf,White Non-Hispanic Civilian Labor Force,White alone not Hispanic or Latino population 16 years and over in the Civilian Labor Force
+,544,544,nhwclfme,"White Non-Hispanic Civilian Labor Force; Margin of Error",
+,545,545,nhwemp,White Non-Hispanic Employed Population,White alone not Hispanic or Latino population 16 years and over Employed in the Civilian Labor Force
+,546,546,nhwempme,"White Non-Hispanic Employed Population; Margin of Error",
+,547,547,nhwue,White Non-Hispanic Unemployed Population,White alone not Hispanic or Latino population 16 years and over Unemployed in the Civilian Labor Force
+,548,548,nhwueme,"White Non-Hispanic Unemployed Population; Margin of Error",
+,549,549,nhwaf,White Non-Hispanic Armed Forces Population,White alone not Hispanic or Latino population 16 years and over in the Armed Force
+,550,550,nhwafme,"White Non-Hispanic Armed Forces Population; Margin of Error",
+,551,551,nhwnlf,White Non-Hispanic Population Not in the Labor Force,White alone not Hispanic or Latino population 16 years and over Not in the Labor Force
+,552,552,nhwnlfme,"White Non-Hispanic Population Not in the Labor Force; Margin of Error",
+,553,553,nhw1664,White Non-Hispanic Population 16-64 Years,
+,554,554,nhw1664me,"White Non-Hispanic Population 16-64 Years; Margin of Error",
+,555,555,nhw64lf,White Non-Hispanic 16-64 Years in Labor Force,
+,556,556,nhw64lfme,"White Non-Hispanic 16-64 Years in Labor Force; Margin of Error",
+,557,557,nhw64clf,White Non-Hispanic 16-64 Years Civilian Labor Force,
+,558,558,nhw64clfm,"White Non-Hispanic 16-64 Years Civilian Labor Force; Margin of Error",
+,559,559,nhw64e,White Non-Hispanic Employed Population 16-64 Years,White alone not Hispanic or Latino population 16-64 Years Employed in the Civilian Labor Force
+,560,560,nhw64e_me,"White Non-Hispanic Employed Population 16-64 Years; Margin of Error",
+,561,561,nhw64ue,White Non-Hispanic Unemployed Population 16-64 Years,White alone not Hispanic or Latino population 16-64 Years Unemployed in the Civilian Labor Force
+,562,562,nhw64ueme,"White Non-Hispanic Unemployed Population 16-64 Years; Margin of Error",
+,563,563,nhw64af,White Non-Hispanic Armed Forces Population 16-64 Years,
+,564,564,nhw64afme,"White Non-Hispanic Armed Forces Population 16-64 Years; Margin of Error",
+,565,565,nhw64nlf,White Non-Hispanic Population 16-64 Years Not in the Labor Force,
+,566,566,nhw64nlfm,"White Non-Hispanic Population 16-64 Years Not in the Labor Force; Margin of Error",
+,567,567,nhw65o,White Non-Hispanic Population 65+ Years,
+,568,568,nhw65ome,"White Non-Hispanic Population 65+ Years; Margin of Error",
+,569,569,nhw65lf,White Non-Hispanic 65+ Years in Labor Force,
+,570,570,nhw65lfme,"White Non-Hispanic 65+ Years in Labor Force; Margin of Error",
+,571,571,nhw65e,White Non-Hispanic Employed Population 65+ Years,White alone not Hispanic or Latino population 65+  Years Employed in the Civilian Labor Force
+,572,572,nhw65e_me,"White Non-Hispanic Employed Population 65+ Years; Margin of Error",
+,573,573,nhw65ue,White Non-Hispanic Unemployed Population 65+ Years,White alone not Hispanic or Latino population 65+  Years Umemployed in the Civilian Labor Force
+,574,574,nhw65ue_me,"White Non-Hispanic Unemployed Population 65+ Years; Margin of Error",
+,575,575,nhw65nlf,White Non-Hispanic Population 65+ Years Not in the Labor Force,
+,576,576,nhw65nlfm,"White Non-Hispanic Population 65+ Years Not in the Labor Force; Margin of Error",
+,577,577,nhwlf_p,% White Non-Hispanic Labor Force,Denominator: White alone not Hispanic or Latino population 16 years and over
+,578,578,nhwlfmep,"% White Non-Hispanic Labor Force; Margin of Error",
+,579,579,nhwclf_p,% White Non-Hispanic Civilian Labor Force,Denominator: White alone not Hispanic or Latino population 16 years and over
+,580,580,nhwclfmep,"% White Non-Hispanic Civilian Labor Force; Margin of Error",
+,581,581,nhwemp_p,% White Non-Hispanic Employed Population,Employed in the Civilian Labor Force. Denominator: White alone not Hispanic or Latino population 16 years and over in the labor force
+,582,582,nhwempmep,"% White Non-Hispanic Employed Population; Margin of Error",
+,583,583,nhwue_p,% White Non-Hispanic Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: White alone not Hispanic or Latino population 16 years and over in labor force
+,584,584,nhwuemep,"% White Non-Hispanic Unemployed Population; Margin of Error",
+,585,585,nhwaf_p,% White Non-Hispanic Armed Forces Population,Denominator: White alone not Hispanic or Latino population 16 years and over
+,586,586,nhwafmep,"% White Non-Hispanic Armed Forces Population; Margin of Error",
+,587,587,nhwnlf_p,% White Non-Hispanic Population Not in the Labor Force,Denominator: White alone not Hispanic or Latino population 16 years and over
+,588,588,nhwnlfmep ,"% White Non-Hispanic Population Not in the Labor Force; Margin of Error",
+,589,589,nhw1664_p,% White Non-Hispanic Population 16-64 Years,Denominator: White alone not Hispanic or Latino population 16 years and over
+,590,590,nhw1664mep,"% White Non-Hispanic Population 16-64 Years; Margin of Error",
+,591,591,nhw64lf_p,% White Non-Hispanic 16-64 Years in Labor Force,Denominator: White alone not Hispanic or Latino population 16-64 Years
+,592,592,nhw64lfmep,"% White Non-Hispanic 16-64 Years in Labor Force; Margin of Error",
+,593,593,nhw64clf_p,% White Non-Hispanic 16-64 Years Civilian Labor Force,Denominator: White alone not Hispanic or Latino population 16-64 Years
+,594,594,nhw64clfmp,"% White Non-Hispanic 16-64 Years Civilian Labor Force; Margin of Error",
+,595,595,nhw64e_p,% White Non-Hispanic Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: White alone not Hispanic or Latino population 16-64 years and over in the labor force
+,596,596,nhw64emep,"% White Non-Hispanic Employed Population 16-64 Years; Margin of Error",
+,597,597,nhw64ue_p,% White Non-Hispanic Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: White alone not Hispanic or Latino population 16-64 years and over in labor force
+,598,598,nhw64uemep,"% White Non-Hispanic Unemployed Population 16-64 Years; Margin of Error",
+,599,599,nhw64af_p,% White Non-Hispanic Armed Forces Population 16-64 Years,Denominator: White alone not Hispanic or Latino population 16-64 Years
+,600,600,nhw64afmep,"% White Non-Hispanic Armed Forces Population 16-64 Years; Margin of Error",
+,601,601,nhw64nlf_p,% White Non-Hispanic Population 16-64 Years Not in the Labor Force,Denominator: White alone not Hispanic or Latino population 16-64 Years
+,602,602,nhw64nlfmp,"% White Non-Hispanic Population 16-64 Years Not in the Labor Force; Margin of Error",
+,603,603,nhw65_p,% White Non-Hispanic Population 65+ Years,Denominator: White alone not Hispanic or Latino population 16 years and over
+,604,604,nhw65mep,"% White Non-Hispanic Population 65+ Years; Margin of Error",
+,605,605,nhw65lf_p,% White Non-Hispanic 65+ Years in Labor Force,Denominator: White alone not Hispanic or Latino population 65+ years
+,606,606,nhw65lfmep,"% White Non-Hispanic 65+ Years in Labor Force; Margin of Error",
+,607,607,nhw65e_p,% White Non-Hispanic Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: White alone not Hispanic or Latino population 65+ years in the labor force
+,608,608,nhw65e_mep,"% White Non-Hispanic Employed Population 65+ Years; Margin of Error",
+,609,609,nhw65ue_p,% White Non-Hispanic Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: White alone not Hispanic or Latino population 65+ years in labor force
+,610,610,nhw65uemep,"% White Non-Hispanic Unemployed Population 65+ Years; Margin of Error",
+,611,611,nhw65nlf_p,% White Non-Hispanic Population 65+ Years Not in the Labor Force,Denominator: White alone not Hispanic or Latino population 65+ years
+,612,612,nhw65nlfmp,"% White Non-Hispanic Population 65+ Years Not in the Labor Force; Margin of Error",
+,613,613,lat16,Hispanic population 16 years and over,
+,614,614,lat16_me,"Hispanic population 16 years and over; Margin of Error",
+,615,615,latlf,Hispanic Labor Force,Hispanic or Latino population 16 years and over in the Labor Force
+,616,616,latlfme,"Hispanic Labor Force; Margin of Error",
+,617,617,latclf,Hispanic Civilian Labor Force,Hispanic or Latino population 16 years and over in the Civilian Labor Force
+,618,618,latclfme,"Hispanic Civilian Labor Force; Margin of Error",
+,619,619,latemp,Hispanic Employed Population,Hispanic or Latino population 16 years and over Employed in the Civilian Labor Force
+,620,620,latempme,"Hispanic Employed Population; Margin of Error",
+,621,621,latue,Hispanic Unemployed Population,Hispanic or Latino population 16 years and over Unemployed in the Civilian Labor Force
+,622,622,latueme,"Hispanic Unemployed Population; Margin of Error",
+,623,623,lataf,Hispanic Armed Forces Population,Hispanic or Latino population 16 years and over in the Armed Force
+,624,624,latafme,"Hispanic Armed Forces Population; Margin of Error",
+,625,625,latnlf,Hispanic Population Not in the Labor Force,Hispanic or Latino population 16 years and over Not in the Labor Force
+,626,626,latnlfme,"Hispanic Population Not in the Labor Force; Margin of Error",
+,627,627,lat1664,Hispanic Population 16-64 Years,
+,628,628,lat1664me,"Hispanic Population 16-64 Years; Margin of Error",
+,629,629,lat64lf,Hispanic 16-64 Years in Labor Force,
+,630,630,lat64lfme,"Hispanic 16-64 Years in Labor Force; Margin of Error",
+,631,631,lat64clf,Hispanic 16-64 Years Civilian Labor Force,
+,632,632,lat64clfm,"Hispanic 16-64 Years Civilian Labor Force; Margin of Error",
+,633,633,lat64e,Hispanic Employed Population 16-64 Years,Hispanic or Latino population 16-64 Years Employed in the Civilian Labor Force
+,634,634,lat64e_me,"Hispanic Employed Population 16-64 Years; Margin of Error",
+,635,635,lat64ue,Hispanic Unemployed Population 16-64 Years,Hispanic or Latino population 16-64 Years Unemployed in the Civilian Labor Force
+,636,636,lat64ueme,"Hispanic Unemployed Population 16-64 Years; Margin of Error",
+,637,637,lat64af,Hispanic Armed Forces Population 16-64 Years,
+,638,638,lat64afme,"Hispanic Armed Forces Population 16-64 Years; Margin of Error",
+,639,639,lat64nlf,Hispanic Population 16-64 Years Not in the Labor Force,
+,640,640,lat64nlfm,"Hispanic Population 16-64 Years Not in the Labor Force; Margin of Error",
+,641,641,lat65o,Hispanic Population 65+ Years,
+,642,642,lat65ome,"Hispanic Population 65+ Years; Margin of Error",
+,643,643,lat65lf,Hispanic 65+ Years in Labor Force,
+,644,644,lat65lfme,"Hispanic 65+ Years in Labor Force; Margin of Error",
+,645,645,lat65e,Hispanic Employed Population 65+ Years,Hispanic or Latino population 65+  Years Employed in the Civilian Labor Force
+,646,646,lat65e_me,"Hispanic Employed Population 65+ Years; Margin of Error",
+,647,647,lat65ue,Hispanic Unemployed Population 65+ Years,Hispanic or Latino population 65+  Years Umemployed in the Civilian Labor Force
+,648,648,lat65ue_me,"Hispanic Unemployed Population 65+ Years; Margin of Error",
+,649,649,lat65nlf,Hispanic Population 65+ Years Not in the Labor Force,
+,650,650,lat65nlfm,"Hispanic Population 65+ Years Not in the Labor Force; Margin of Error",
+,651,651,latlf_p,% Hispanic Labor Force,Denominator: Hispanic or Latino population 16 years and over
+,652,652,latlfmep,"% Hispanic Labor Force; Margin of Error",
+,653,653,latclf_p,% Hispanic Civilian Labor Force,Denominator: Hispanic or Latino population 16 years and over
+,654,654,latclfmep,"% Hispanic Civilian Labor Force; Margin of Error",
+,655,655,latemp_p,% Hispanic Employed Population,Employed in the Civilian Labor Force. Denominator: Hispanic or Latino population 16 years and over in the labor force
+,656,656,latempmep,"% Hispanic Employed Population; Margin of Error",
+,657,657,latue_p,% Hispanic Unemployed Population,Unemployed in the Civilian Labor Force. Denominator: Hispanic or Latino population 16 years and over in labor force
+,658,658,latuemep,"% Hispanic Unemployed Population; Margin of Error",
+,659,659,lataf_p,% Hispanic Armed Forces Population,Denominator: Hispanic or Latino population 16 years and over
+,660,660,latafmep,"% Hispanic Armed Forces Population; Margin of Error",
+,661,661,latnlf_p,% Hispanic Population Not in the Labor Force,Denominator: Hispanic or Latino population 16 years and over
+,662,662,latnlfmep ,"% Hispanic Population Not in the Labor Force; Margin of Error",
+,663,663,lat1664_p,% Hispanic Population 16-64 Years,Denominator: Hispanic or Latino population 16 years and over
+,664,664,lat1664mep,"% Hispanic Population 16-64 Years; Margin of Error",
+,665,665,lat64lf_p,% Hispanic 16-64 Years in Labor Force,Denominator: Hispanic or Latino population 16-64 Years
+,666,666,lat64lfmep,"% Hispanic 16-64 Years in Labor Force; Margin of Error",
+,667,667,lat64clf_p,% Hispanic 16-64 Years Civilian Labor Force,Denominator: Hispanic or Latino population 16-64 Years
+,668,668,lat64clfmp,"% Hispanic 16-64 Years Civilian Labor Force; Margin of Error",
+,669,669,lat64e_p,% Hispanic Employed Population 16-64 Years,Employed in the Civilian Labor Force. Denominator: Hispanic or Latino population 16-64 years and over in the labor force
+,670,670,lat64emep,"% Hispanic Employed Population 16-64 Years; Margin of Error",
+,671,671,lat64ue_p,% Hispanic Unemployed Population 16-64 Years,Unemployed in the Civilian Labor Force. Denominator: Hispanic or Latino population 16-64 years and over in labor force
+,672,672,lat64uemep,"% Hispanic Unemployed Population 16-64 Years; Margin of Error",
+,673,673,lat64af_p,% Hispanic Armed Forces Population 16-64 Years,Denominator: Hispanic or Latino population 16-64 Years
+,674,674,lat64afmep,"% Hispanic Armed Forces Population 16-64 Years; Margin of Error",
+,675,675,lat64nlf_p,% Hispanic Population 16-64 Years Not in the Labor Force,Denominator: Hispanic or Latino population 16-64 Years
+,676,676,lat64nlfmp,"% Hispanic Population 16-64 Years Not in the Labor Force; Margin of Error",
+,677,677,lat65_p,% Hispanic Population 65+ Years,Denominator: Hispanic or Latino population 16 years and over
+,678,678,lat65mep,"% Hispanic Population 65+ Years; Margin of Error",
+,679,679,lat65lf_p,% Hispanic 65+ Years in Labor Force,Denominator: Hispanic or Latino population 65+ years
+,680,680,lat65lfmep,"% Hispanic 65+ Years in Labor Force; Margin of Error",
+,681,681,lat65e_p,% Hispanic Employed Population 65+ Years,Employed in the Civilian Labor Force. Denominator: Hispanic or Latino population 65+ years in the labor force
+,682,682,lat65e_mep,"% Hispanic Employed Population 65+ Years; Margin of Error",
+,683,683,lat65ue_p,% Hispanic Unemployed Population 65+ Years,Unemployed in the Civilian Labor Force. Denominator: Hispanic or Latino population 65+ years in labor force
+,684,684,lat65uemep,"% Hispanic Unemployed Population 65+ Years; Margin of Error",
+,685,685,lat65nlf_p,% Hispanic Population 65+ Years Not in the Labor Force,Denominator: Hispanic or Latino population 65+ years
+,686,686,lat65nlfmp,"% Hispanic Population 65+ Years Not in the Labor Force; Margin of Error",

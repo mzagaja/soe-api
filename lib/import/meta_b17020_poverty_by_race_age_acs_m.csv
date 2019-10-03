@@ -1,0 +1,365 @@
+the_geom,cartodb_id,orderid,alias,details,name
+,1,1,Geographic Identifier,muni_id,join_key
+,2,2,Title,Poverty by Race and Age,title
+,3,3,Alternate Title,,alt_title
+,4,4,Table Name,b17020_poverty_by_race_age_acs_m,tbl_table
+,5,5,Table number from source data,b17020,tbl_num
+,6,6,Spatial Geography,Municipalities,geography
+,7,7,Description,Poverty status in the past 12 months by Age and Race,descriptn
+,8,8,Dates Available,5yr Avg 2005-09 through 2010-14,datesavail
+,9,9,Coverage,Statewide,coverage
+,10,10,Universe,Population by race for whom poverty status is determined,universe
+,11,11,Creator/Source,US Census: American Community Survey,creator
+,12,12,Publisher,MAPC,publisher
+,13,13,Contributors,,contributr
+,14,14,CreationDate,,createdate
+,15,15,ModificationDate,2015-12,moddate
+,16,16,Municipal ID,,muni_id
+,17,17,Municipality,,municipal
+,18,18,Census Geographic Level ID,,geoid
+,19,19,Census Logical Record Number,,logrecno
+,20,20,ACS Years,,acs_year
+,21,21,White alone population ,for whom poverty status is determined,whipop
+,22,22,"White alone population; Margin of Error",,whipopme
+,23,23,White population in poverty,Income in the past 12 months below poverty level,whipov
+,24,24,"White population in poverty; Margin of Error",,whipovme
+,25,25,White population under 18 years in poverty,,whiu18
+,26,26,"White population under 18 years in poverty; Margin of Error",,whiu18me
+,27,27,White population 18 -  64  years in poverty,,whi1864
+,28,28,"White population 18 -  64  years in poverty; Margin of Error",,whi1864me
+,29,29,White population 65+ years in poverty,,whi65o
+,30,30,"White population 65+ years in poverty; Margin of Error",,whi65ome
+,31,31,% White population in poverty,,whipov_p
+,32,32,"% White population in poverty; Margin of Error",,whipovmep
+,33,33,% White population under 18 years in poverty,,whiu18_p
+,34,34,"% White population under 18 years in poverty; Margin of Error",,whiu18mep
+,35,35,% White population 18 -  64  years in poverty,,whi1864_p
+,36,36,"% White population 18 -  64  years in poverty; Margin of Error",,whi1864mep
+,37,37,% White population 65+ years in poverty,,whi65o_p
+,38,38,"% White population 65+ years in poverty; Margin of Error",,whi65omep
+,39,39,Black or African American alone population ,for whom poverty status is determined,aapop
+,40,40,"Black or African American alone population,Margin of Error",,aapopme
+,41,41,Black population in poverty,Income in the past 12 months below poverty level,aapov
+,42,42,"Black population in poverty; Margin of Error",,aapovme
+,43,43,Black population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",aau18
+,44,44,"Black population under 18 years in poverty; Margin of Error",,aau18me
+,45,45,Black population 18 -  64  years in poverty,,aa1864
+,46,46,"Black population 18 -  64  years in poverty; Margin of Error",,aa1864me
+,47,47,Black population 65+ years in poverty,,aa65o
+,48,48,"Black population 65+ years in poverty; Margin of Error",,aa65ome
+,49,49,% Black population in poverty,,aapov_p
+,50,50,"% Black population in poverty; Margin of Error",,aapovmep
+,51,51,% Black population under 18 years in poverty,,aau18_p
+,52,52,"% Black population under 18 years in poverty; Margin of Error",,aau18mep
+,53,53,% Black population 18 -  64  years in poverty,,aa1864_p
+,54,54,"% Black population 18 -  64  years in poverty; Margin of Error",,aa1864mep
+,55,55,% Black population 65+ years in poverty,,aa65o_p
+,56,56,"% Black population 65+ years in poverty; Margin of Error",,aa65omep
+,57,57,American Indian and Alaska Native alone population,American Indian and Alaska Native alone population for whom poverty status is determined,napop
+,58,58,American Indian and Alaska Native alone population,,napopme
+,59,59,American Indian  population in poverty,Income in the past 12 months below poverty level,napov
+,60,60,"American Indian  population in poverty; Margin of Error",,napovme
+,61,61,American Indian  population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",nau18
+,62,62,"American Indian  population under 18 years in poverty; Margin of Error",,nau18me
+,63,63,American Indian  population 18 -  64  years in poverty,,na1864
+,64,64,"American Indian  population 18 -  64  years in poverty; Margin of Error",,na1864me
+,65,65,American Indian  population 65+ years in poverty,,na65o
+,66,66,"American Indian  population 65+ years in poverty; Margin of Error",,na65ome
+,67,67,% American Indian  population in poverty,,napov_p
+,68,68,"% American Indian  population in poverty; Margin of Error",,napovmep
+,69,69,% American Indian  population under 18 years in poverty,,nau18_p
+,70,70,"% American Indian  population under 18 years in poverty; Margin of Error",,nau18mep
+,71,71,% American Indian  population 18 -  64  years in poverty,,na1864_p
+,72,72,"% American Indian  population 18 -  64  years in poverty; Margin of Error",,na1864mep
+,73,73,% American Indian  population 65+ years in poverty,,na65o_p
+,74,74,"% American Indian  population 65+ years in poverty; Margin of Error",,na65omep
+,75,75,Asian alone population ,Asian alone population for whom poverty status is determined,aspop
+,76,76,"Asian alone population,Margin of Error",,aspopme
+,77,77,Asian population in poverty,Income in the past 12 months below poverty level,aspov
+,78,78,"Asian population in poverty; Margin of Error",,aspovme
+,79,79,Asian population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",asu18
+,80,80,"Asian population under 18 years in poverty; Margin of Error",,asu18me
+,81,81,Asian population 18 -  64  years in poverty,,as1864
+,82,82,"Asian population 18 -  64  years in poverty; Margin of Error",,as1864me
+,83,83,Asian population 65+ years in poverty,,as65o
+,84,84,"Asian population 65+ years in poverty; Margin of Error",,as65ome
+,85,85,% Asian population in poverty,,aspov_p
+,86,86,"% Asian population in poverty; Margin of Error",,aspovmep
+,87,87,% Asian population under 18 years in poverty,,asu18_p
+,88,88,"% Asian population under 18 years in poverty; Margin of Error",,asu18mep
+,89,89,% Asian population 18 -  64  years in poverty,,as1864_p
+,90,90,"% Asian population 18 -  64  years in poverty; Margin of Error",,as1864mep
+,91,91,% Asian population 65+ years in poverty,,as65o_p
+,92,92,"% Asian population 65+ years in poverty; Margin of Error",,as65omep
+,93,93,Pacific Islander alone population,Native Hawaiian and Other Pacific Islander alone population for whom poverty status is determined,pipop
+,94,94,"Pacific Islander alone population,Margin of Error",,pipopme
+,95,95,Pacific Islander population in poverty,Income in the past 12 months below poverty level,pipov
+,96,96,"Pacific Islander population in poverty; Margin of Error",,pipovme
+,97,97,Pacific Islander population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",piu18
+,98,98,"Pacific Islander population under 18 years in poverty; Margin of Error",,piu18me
+,99,99,Pacific Islander population 18 -  64  years in poverty,,pi1864
+,100,100,"Pacific Islander population 18 -  64  years in poverty; Margin of Error",,pi1864me
+,101,101,Pacific Islander population 65+ years in poverty,,pi65o
+,102,102,"Pacific Islander population 65+ years in poverty; Margin of Error",,pi65ome
+,103,103,% Pacific Islander population in poverty,,pipov_p
+,104,104,"% Pacific Islander population in poverty; Margin of Error",,pipovmep
+,105,105,% Pacific Islander population under 18 years in poverty,,piu18_p
+,106,106,"% Pacific Islander population under 18 years in poverty; Margin of Error",,piu18mep
+,107,107,% Pacific Islander population 18 -  64  years in poverty,,pi1864_p
+,108,108,"% Pacific Islander population 18 -  64  years in poverty; Margin of Error",,pi1864mep
+,109,109,% Pacific Islander population 65+ years in poverty,,pi65o_p
+,110,110,"% Pacific Islander population 65+ years in poverty; Margin of Error",,pi65omep
+,111,111,Other race alone population alone population ,Some other race alone population for whom poverty status is determined,othpop
+,112,112,"Other race alone population alone population,Margin of Error",,othpopme
+,113,113,Other race alone population population in poverty,Income in the past 12 months below poverty level,othpov
+,114,114,"Other race alone population population in poverty; Margin of Error",,othpovme
+,115,115,Other race alone population population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",othu18
+,116,116,"Other race alone population population under 18 years in poverty; Margin of Error",,othu18me
+,117,117,Other race alone population population 18 -  64  years in poverty,,oth1864
+,118,118,"Other race alone population population 18 -  64  years in poverty; Margin of Error",,oth1864me
+,119,119,Other race alone population population 65+ years in poverty,,oth65o
+,120,120,"Other race alone population population 65+ years in poverty; Margin of Error",,oth65ome
+,121,121,% Other race alone population population in poverty,,othpov_p
+,122,122,"% Other race alone population population in poverty; Margin of Error",,othpovmep
+,123,123,% Other race alone population population under 18 years in poverty,,othu18_p
+,124,124,"% Other race alone population population under 18 years in poverty; Margin of Error",,othu18mep
+,125,125,% Other race alone population population 18 -  64  years in poverty,,oth1864_p
+,126,126,"% Other race alone population population 18 -  64  years in poverty; Margin of Error",,oth1864mep
+,127,127,% Other race alone population population 65+ years in poverty,,oth65o_p
+,128,128,"% Other race alone population population 65+ years in poverty; Margin of Error",,oth65omep
+,129,129,Multi-race population ,Two or more races population for whom poverty status is determined,mltpop
+,130,130,"Multi-race population,Margin of Error",,mltpopme
+,131,131,Multi-race population in poverty,Income in the past 12 months below poverty level,mltpov
+,132,132,"Multi-race population in poverty; Margin of Error",,mltpovme
+,133,133,Multi-race population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",mltu18
+,134,134,"Multi-race population under 18 years in poverty; Margin of Error",,mltu18me
+,135,135,Multi-race population 18 -  64  years in poverty,,mlt1864
+,136,136,"Multi-race population 18 -  64  years in poverty; Margin of Error",,mlt1864me
+,137,137,Multi-race population 65+ years in poverty,,mlt65o
+,138,138,"Multi-race population 65+ years in poverty; Margin of Error",,mlt65ome
+,139,139,% Multi-race population in poverty,,mltpov_p
+,140,140,"% Multi-race population in poverty; Margin of Error",,mltpovmep
+,141,141,% Multi-race population under 18 years in poverty,,mltu18_p
+,142,142,"% Multi-race population under 18 years in poverty; Margin of Error",,mltu18mep
+,143,143,% Multi-race population 18 -  64  years in poverty,,mlt1864_p
+,144,144,"% Multi-race population 18 -  64  years in poverty; Margin of Error",,mlt1864mep
+,145,145,% Multi-race population 65+ years in poverty,,mlt65o_p
+,146,146,"% Multi-race population 65+ years in poverty; Margin of Error",,mlt65omep
+,296,296,"Other race alone population population in poverty; Margin of Error",,othpovme
+,147,147,White Non-Hispanic population ,"White alone, not Hispanic or Latino population for whom poverty status is determined",nhwpop
+,148,148,"White Non-Hispanic population,Margin of Error",,nhwpopme
+,149,149,White Non-Hispanic population in poverty,Income in the past 12 months below poverty level,nhwpov
+,150,150,"White Non-Hispanic population in poverty; Margin of Error",,nhwpovme
+,151,151,White Non-Hispanic population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",nhwu18
+,152,152,"White Non-Hispanic population under 18 years in poverty; Margin of Error",,nhwu18me
+,153,153,White Non-Hispanic population 18 -  64  years in poverty,,nhw1864
+,154,154,"White Non-Hispanic population 18 -  64  years in poverty; Margin of Error",,nhw1864me
+,155,155,White Non-Hispanic population 65+ years in poverty,,nhw65o
+,156,156,"White Non-Hispanic population 65+ years in poverty; Margin of Error",,nhw65ome
+,157,157,% White Non-Hispanic population in poverty,,nhwpov_p
+,158,158,"% White Non-Hispanic population in poverty; Margin of Error",,nhwpovmep
+,159,159,% White Non-Hispanic population under 18 years in poverty,,nhwu18_p
+,160,160,"% White Non-Hispanic population under 18 years in poverty; Margin of Error",,nhwu18mep
+,161,161,% White Non-Hispanic population 18 -  64  years in poverty,,nhw1864_p
+,162,162,"% White Non-Hispanic population 18 -  64  years in poverty; Margin of Error",,nhw1864mep
+,163,163,% White Non-Hispanic population 65+ years in poverty,,nhw65o_p
+,164,164,"% White Non-Hispanic population 65+ years in poverty; Margin of Error",,nhw65omep
+,165,165,Latino population ,Hispanic or Latino population for whom poverty status is determined,latpop
+,166,166,"Latino population,Margin of Error",,latpopme
+,167,167,Latino population in poverty,Income in the past 12 months below poverty level,latpov
+,168,168,"Latino population in poverty; Margin of Error",,latpovme
+,169,169,Latino population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",latu18
+,170,170,"Latino population under 18 years in poverty; Margin of Error",,latu18me
+,171,171,Latino population 18 -  64  years in poverty,,lat1864
+,172,172,"Latino population 18 -  64  years in poverty; Margin of Error",,lat1864me
+,173,173,Latino population 65+ years in poverty,,lat65o
+,174,174,"Latino population 65+ years in poverty; Margin of Error",,lat65ome
+,175,175,% Latino population in poverty,,latpov_p
+,176,176,"% Latino population in poverty; Margin of Error",,latpovmep
+,177,177,% Latino population under 18 years in poverty,,latu18_p
+,178,178,"% Latino population under 18 years in poverty; Margin of Error",,latu18mep
+,179,179,% Latino population 18 -  64  years in poverty,,lat1864_p
+,180,180,"% Latino population 18 -  64  years in poverty; Margin of Error",,lat1864mep
+,181,181,% Latino population 65+ years in poverty,,lat65o_p
+,182,182,"% Latino population 65+ years in poverty; Margin of Error",,lat65omep
+,183,183,Geographic Identifier,muni_id,join_key
+,184,184,Title,Poverty by Race and Age,title
+,185,185,Alternate Title,,alt_title
+,186,186,Table Name,b17020_poverty_by_race_age_acs_m,tbl_table
+,187,187,Table number from source data,b17020,tbl_num
+,188,188,Spatial Geography,Municipalities,geography
+,189,189,Description,Poverty status in the past 12 months by Age and Race,descriptn
+,190,190,Dates Available,5yr Avg 2005-09 through 2011-15,datesavail
+,191,191,Coverage,Statewide,coverage
+,192,192,Universe,Population by race for whom poverty status is determined,universe
+,193,193,Creator/Source,US Census: American Community Survey,creator
+,194,194,Publisher,MAPC,publisher
+,195,195,Contributors,,contributr
+,196,196,CreationDate,,createdate
+,197,197,ModificationDate,2016-12,moddate
+,198,198,Municipal ID,,muni_id
+,199,199,Municipality,,municipal
+,200,200,Census Geographic Level ID,,geoid
+,201,201,Census Logical Record Number,,logrecno
+,202,202,ACS Years,,acs_year
+,203,203,White alone population ,for whom poverty status is determined,whipop
+,204,204,"White alone population; Margin of Error",,whipopme
+,205,205,White population in poverty,Income in the past 12 months below poverty level,whipov
+,206,206,"White population in poverty; Margin of Error",,whipovme
+,207,207,White population under 18 years in poverty,,whiu18
+,208,208,"White population under 18 years in poverty; Margin of Error",,whiu18me
+,209,209,White population 18 -  64  years in poverty,,whi1864
+,210,210,"White population 18 -  64  years in poverty; Margin of Error",,whi1864me
+,211,211,White population 65+ years in poverty,,whi65o
+,212,212,"White population 65+ years in poverty; Margin of Error",,whi65ome
+,213,213,% White population in poverty,,whipov_p
+,214,214,"% White population in poverty; Margin of Error",,whipovmep
+,215,215,% White population under 18 years in poverty,,whiu18_p
+,216,216,"% White population under 18 years in poverty; Margin of Error",,whiu18mep
+,217,217,% White population 18 -  64  years in poverty,,whi1864_p
+,218,218,"% White population 18 -  64  years in poverty; Margin of Error",,whi1864mep
+,219,219,% White population 65+ years in poverty,,whi65o_p
+,220,220,"% White population 65+ years in poverty; Margin of Error",,whi65omep
+,221,221,Black or African American alone population ,for whom poverty status is determined,aapop
+,222,222,"Black or African American alone population,Margin of Error",,aapopme
+,223,223,Black population in poverty,Income in the past 12 months below poverty level,aapov
+,224,224,"Black population in poverty; Margin of Error",,aapovme
+,225,225,Black population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",aau18
+,226,226,"Black population under 18 years in poverty; Margin of Error",,aau18me
+,227,227,Black population 18 -  64  years in poverty,,aa1864
+,228,228,"Black population 18 -  64  years in poverty; Margin of Error",,aa1864me
+,229,229,Black population 65+ years in poverty,,aa65o
+,230,230,"Black population 65+ years in poverty; Margin of Error",,aa65ome
+,231,231,% Black population in poverty,,aapov_p
+,232,232,"% Black population in poverty; Margin of Error",,aapovmep
+,233,233,% Black population under 18 years in poverty,,aau18_p
+,234,234,"% Black population under 18 years in poverty; Margin of Error",,aau18mep
+,235,235,% Black population 18 -  64  years in poverty,,aa1864_p
+,236,236,"% Black population 18 -  64  years in poverty; Margin of Error",,aa1864mep
+,237,237,% Black population 65+ years in poverty,,aa65o_p
+,238,238,"% Black population 65+ years in poverty; Margin of Error",,aa65omep
+,239,239,American Indian and Alaska Native alone population,American Indian and Alaska Native alone population for whom poverty status is determined,napop
+,240,240,American Indian and Alaska Native alone population,,napopme
+,241,241,American Indian  population in poverty,Income in the past 12 months below poverty level,napov
+,242,242,"American Indian  population in poverty; Margin of Error",,napovme
+,243,243,American Indian  population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",nau18
+,244,244,"American Indian  population under 18 years in poverty; Margin of Error",,nau18me
+,245,245,American Indian  population 18 -  64  years in poverty,,na1864
+,246,246,"American Indian  population 18 -  64  years in poverty; Margin of Error",,na1864me
+,247,247,American Indian  population 65+ years in poverty,,na65o
+,248,248,"American Indian  population 65+ years in poverty; Margin of Error",,na65ome
+,249,249,% American Indian  population in poverty,,napov_p
+,250,250,"% American Indian  population in poverty; Margin of Error",,napovmep
+,251,251,% American Indian  population under 18 years in poverty,,nau18_p
+,252,252,"% American Indian  population under 18 years in poverty; Margin of Error",,nau18mep
+,253,253,% American Indian  population 18 -  64  years in poverty,,na1864_p
+,254,254,"% American Indian  population 18 -  64  years in poverty; Margin of Error",,na1864mep
+,255,255,% American Indian  population 65+ years in poverty,,na65o_p
+,256,256,"% American Indian  population 65+ years in poverty; Margin of Error",,na65omep
+,257,257,Asian alone population ,Asian alone population for whom poverty status is determined,aspop
+,258,258,"Asian alone population,Margin of Error",,aspopme
+,259,259,Asian population in poverty,Income in the past 12 months below poverty level,aspov
+,260,260,"Asian population in poverty; Margin of Error",,aspovme
+,261,261,Asian population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",asu18
+,262,262,"Asian population under 18 years in poverty; Margin of Error",,asu18me
+,263,263,Asian population 18 -  64  years in poverty,,as1864
+,264,264,"Asian population 18 -  64  years in poverty; Margin of Error",,as1864me
+,265,265,Asian population 65+ years in poverty,,as65o
+,266,266,"Asian population 65+ years in poverty; Margin of Error",,as65ome
+,267,267,% Asian population in poverty,,aspov_p
+,268,268,"% Asian population in poverty; Margin of Error",,aspovmep
+,269,269,% Asian population under 18 years in poverty,,asu18_p
+,270,270,"% Asian population under 18 years in poverty; Margin of Error",,asu18mep
+,271,271,% Asian population 18 -  64  years in poverty,,as1864_p
+,272,272,"% Asian population 18 -  64  years in poverty; Margin of Error",,as1864mep
+,273,273,% Asian population 65+ years in poverty,,as65o_p
+,274,274,"% Asian population 65+ years in poverty; Margin of Error",,as65omep
+,275,275,Pacific Islander alone population,Native Hawaiian and Other Pacific Islander alone population for whom poverty status is determined,pipop
+,276,276,"Pacific Islander alone population,Margin of Error",,pipopme
+,277,277,Pacific Islander population in poverty,Income in the past 12 months below poverty level,pipov
+,278,278,"Pacific Islander population in poverty; Margin of Error",,pipovme
+,279,279,Pacific Islander population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",piu18
+,280,280,"Pacific Islander population under 18 years in poverty; Margin of Error",,piu18me
+,281,281,Pacific Islander population 18 -  64  years in poverty,,pi1864
+,282,282,"Pacific Islander population 18 -  64  years in poverty; Margin of Error",,pi1864me
+,283,283,Pacific Islander population 65+ years in poverty,,pi65o
+,284,284,"Pacific Islander population 65+ years in poverty; Margin of Error",,pi65ome
+,285,285,% Pacific Islander population in poverty,,pipov_p
+,286,286,"% Pacific Islander population in poverty; Margin of Error",,pipovmep
+,287,287,% Pacific Islander population under 18 years in poverty,,piu18_p
+,288,288,"% Pacific Islander population under 18 years in poverty; Margin of Error",,piu18mep
+,289,289,% Pacific Islander population 18 -  64  years in poverty,,pi1864_p
+,290,290,"% Pacific Islander population 18 -  64  years in poverty; Margin of Error",,pi1864mep
+,291,291,% Pacific Islander population 65+ years in poverty,,pi65o_p
+,292,292,"% Pacific Islander population 65+ years in poverty; Margin of Error",,pi65omep
+,293,293,Other race alone population alone population ,Some other race alone population for whom poverty status is determined,othpop
+,294,294,"Other race alone population alone population,Margin of Error",,othpopme
+,295,295,Other race alone population population in poverty,Income in the past 12 months below poverty level,othpov
+,297,297,Other race alone population population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",othu18
+,298,298,"Other race alone population population under 18 years in poverty; Margin of Error",,othu18me
+,299,299,Other race alone population population 18 -  64  years in poverty,,oth1864
+,300,300,"Other race alone population population 18 -  64  years in poverty; Margin of Error",,oth1864me
+,301,301,Other race alone population population 65+ years in poverty,,oth65o
+,302,302,"Other race alone population population 65+ years in poverty; Margin of Error",,oth65ome
+,303,303,% Other race alone population population in poverty,,othpov_p
+,304,304,"% Other race alone population population in poverty; Margin of Error",,othpovmep
+,305,305,% Other race alone population population under 18 years in poverty,,othu18_p
+,306,306,"% Other race alone population population under 18 years in poverty; Margin of Error",,othu18mep
+,307,307,% Other race alone population population 18 -  64  years in poverty,,oth1864_p
+,308,308,"% Other race alone population population 18 -  64  years in poverty; Margin of Error",,oth1864mep
+,309,309,% Other race alone population population 65+ years in poverty,,oth65o_p
+,310,310,"% Other race alone population population 65+ years in poverty; Margin of Error",,oth65omep
+,311,311,Multi-race population ,Two or more races population for whom poverty status is determined,mltpop
+,312,312,"Multi-race population,Margin of Error",,mltpopme
+,313,313,Multi-race population in poverty,Income in the past 12 months below poverty level,mltpov
+,314,314,"Multi-race population in poverty; Margin of Error",,mltpovme
+,315,315,Multi-race population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",mltu18
+,316,316,"Multi-race population under 18 years in poverty; Margin of Error",,mltu18me
+,317,317,Multi-race population 18 -  64  years in poverty,,mlt1864
+,318,318,"Multi-race population 18 -  64  years in poverty; Margin of Error",,mlt1864me
+,319,319,Multi-race population 65+ years in poverty,,mlt65o
+,320,320,"Multi-race population 65+ years in poverty; Margin of Error",,mlt65ome
+,321,321,% Multi-race population in poverty,,mltpov_p
+,322,322,"% Multi-race population in poverty; Margin of Error",,mltpovmep
+,323,323,% Multi-race population under 18 years in poverty,,mltu18_p
+,324,324,"% Multi-race population under 18 years in poverty; Margin of Error",,mltu18mep
+,325,325,% Multi-race population 18 -  64  years in poverty,,mlt1864_p
+,326,326,"% Multi-race population 18 -  64  years in poverty; Margin of Error",,mlt1864mep
+,327,327,% Multi-race population 65+ years in poverty,,mlt65o_p
+,328,328,"% Multi-race population 65+ years in poverty; Margin of Error",,mlt65omep
+,329,329,White Non-Hispanic population ,"White alone, not Hispanic or Latino population for whom poverty status is determined",nhwpop
+,330,330,"White Non-Hispanic population,Margin of Error",,nhwpopme
+,331,331,White Non-Hispanic population in poverty,Income in the past 12 months below poverty level,nhwpov
+,332,332,"White Non-Hispanic population in poverty; Margin of Error",,nhwpovme
+,333,333,White Non-Hispanic population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",nhwu18
+,334,334,"White Non-Hispanic population under 18 years in poverty; Margin of Error",,nhwu18me
+,335,335,White Non-Hispanic population 18 -  64  years in poverty,,nhw1864
+,336,336,"White Non-Hispanic population 18 -  64  years in poverty; Margin of Error",,nhw1864me
+,337,337,White Non-Hispanic population 65+ years in poverty,,nhw65o
+,338,338,"White Non-Hispanic population 65+ years in poverty; Margin of Error",,nhw65ome
+,339,339,% White Non-Hispanic population in poverty,,nhwpov_p
+,340,340,"% White Non-Hispanic population in poverty; Margin of Error",,nhwpovmep
+,341,341,% White Non-Hispanic population under 18 years in poverty,,nhwu18_p
+,342,342,"% White Non-Hispanic population under 18 years in poverty; Margin of Error",,nhwu18mep
+,343,343,% White Non-Hispanic population 18 -  64  years in poverty,,nhw1864_p
+,344,344,"% White Non-Hispanic population 18 -  64  years in poverty; Margin of Error",,nhw1864mep
+,345,345,% White Non-Hispanic population 65+ years in poverty,,nhw65o_p
+,346,346,"% White Non-Hispanic population 65+ years in poverty; Margin of Error",,nhw65omep
+,347,347,Latino population ,Hispanic or Latino population for whom poverty status is determined,latpop
+,348,348,"Latino population,Margin of Error",,latpopme
+,349,349,Latino population in poverty,Income in the past 12 months below poverty level,latpov
+,350,350,"Latino population in poverty; Margin of Error",,latpovme
+,351,351,Latino population under 18 years in poverty,"Combines: Under 5 years; 5 years; 6 to 11 years and 12 to 17 years",latu18
+,352,352,"Latino population under 18 years in poverty; Margin of Error",,latu18me
+,353,353,Latino population 18 -  64  years in poverty,,lat1864
+,354,354,"Latino population 18 -  64  years in poverty; Margin of Error",,lat1864me
+,355,355,Latino population 65+ years in poverty,,lat65o
+,356,356,"Latino population 65+ years in poverty; Margin of Error",,lat65ome
+,357,357,% Latino population in poverty,,latpov_p
+,358,358,"% Latino population in poverty; Margin of Error",,latpovmep
+,359,359,% Latino population under 18 years in poverty,,latu18_p
+,360,360,"% Latino population under 18 years in poverty; Margin of Error",,latu18mep
+,361,361,% Latino population 18 -  64  years in poverty,,lat1864_p
+,362,362,"% Latino population 18 -  64  years in poverty; Margin of Error",,lat1864mep
+,363,363,% Latino population 65+ years in poverty,,lat65o_p
+,364,364,"% Latino population 65+ years in poverty; Margin of Error",,lat65omep
