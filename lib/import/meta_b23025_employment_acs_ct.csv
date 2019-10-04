@@ -1,0 +1,46 @@
+the_geom,cartodb_id,orderid,name,alias,details
+,1,1,join_key,Geographic Identifier,ct10_id
+,2,2,title,Title,Employment
+,3,3,alt_title,Alternate Title,
+,4,4,tbl_table,Table Name,b23025_employment_acs_ct
+,5,5,tbl_num,Table number from source data,b23025
+,6,6,geography,Spatial Geography,Census 2010 Tracts
+,7,7,descriptn,Description,Employment status for the population 16 years and over
+,8,8,datesavail,Dates Available,5yr Avg 2007-11 through 2010-14
+,9,9,coverage,Coverage,Statewide
+,10,10,universe,Universe,Population 16 years and over
+,11,11,creator,Creator/Source,US Census: American Community Survey
+,12,12,publisher,Publisher,MAPC
+,13,13,contributr,Contributors,
+,14,14,createdate,CreationDate,
+,15,15,moddate,ModificationDate,2015-12
+,16,16,ct10_id,Census 2010 Tract ID,
+,17,17,geoid,Census Geographic Level ID,
+,18,18,logrecno,Census Logical Record Number,
+,19,19,acs_year,ACS Years,
+,20,20,pop16,Population 16 years and over,
+,21,21,pop16_me,"Population 16 years and over; Margin of Error",
+,22,22,lf,Labor Force,Civiliian and Armed Forces
+,23,23,lf_me,"Labor Force; Margin of Error",
+,24,24,clf,Civilian Labor Force,
+,25,25,clf_me,"Civilian Labor Force; Margin of Error",
+,26,26,emp,Employed,Civilian
+,27,27,emp_me,"Employed; Margin of Error",
+,28,28,unemp,Unemployed,Civilian
+,29,29,unemp_me,"Unemployed; Margin of Error",
+,30,30,aflf,Armed Forces,
+,31,31,aflf_me,"Armed Forces; Margin of Error",
+,32,32,nlf,Not in the Labor Force,
+,33,33,nlf_me,"Not in the Labor Force; Margin Of Error",
+,34,34,lf_p,% Labor Force,
+,35,35,lf_mep,"% Labor Force; Margin of Error",
+,36,36,clf_p,% Civilian Labor Force,
+,37,37,clf_mep,"% Civilian Labor Force; Margin of Error",
+,38,38,emp_p,% Employed,
+,39,39,emp_mep,"% Employed; Margin of Error",
+,40,40,unemp_p,% Unemployed,
+,41,41,unemp_mep,"% Unemployed; Margin of Error",
+,42,42,aflf_p,% Armed Forces,
+,43,43,aflf_mep,"% Armed Forces; Margin of Error",
+,44,44,nlf_p,% Not in the Labor Force,
+,45,45,nlf_mep,"% Not in the Labor Force; Margin Of Error",
