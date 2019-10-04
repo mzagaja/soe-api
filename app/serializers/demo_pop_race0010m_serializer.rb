@@ -1,4 +1,4 @@
 class DemoPopRace0010mSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :id
 end
