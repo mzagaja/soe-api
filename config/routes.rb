@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root 'api/carto#diversity1'
   # get '/http://127.0.0.1:3000/diversity%20muni_id,nhwhi_00p,nhwhi_10p,nhwh_pdif,nhaa_pdif,lat_pdif,nhas_pdif,municipal%20FROM%20demo_pop_race_00_10m', to: 'carto#diversity'
   namespace :api do
+    get '/main', to: 'main#main'
     get '/diversity1', to: 'carto#diversity1'
     get '/criminal_justice1', to: 'carto#criminal_justice1'
     get '/criminal_justice2', to: 'carto#criminal_justice2'
