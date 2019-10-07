@@ -126,29 +126,34 @@ class Api::MainController < ApplicationController
 
 
 
-#  SENIORS ..............................................................................................
+  #  SENIORS ..............................................................................................
 
-# when params['q'] == "SELECT muni_id,nhwhi_00p,nhwhi_10p,nhwh_pdif,nhaa_pdif,lat_pdif,nhas_pdif,municipal FROM demo_pop_race_00_10m"
-#   render json: SENIORS1
-#  same as diversity1
+  # when params['q'] == "SELECT muni_id,nhwhi_00p,nhwhi_10p,nhwh_pdif,nhaa_pdif,lat_pdif,nhas_pdif,municipal FROM demo_pop_race_00_10m"
+  #   render json: SENIORS1
+  #  same as diversity1
 
 when params['q'] == "SELECT muni_id,nhw65o_p,aa65o_p,as65o_p,lat65o_p,municipal FROM b17020_poverty_by_race_age_acs_m WHERE acs_year =  2011-15"
+  puts '_____________________SENIORS2________________________'
   render json: SENIORS2
 
 when params['q'] == "SELECT muni_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_m WHERE acs_year =  2011-15"
+  puts '_____________________SENIORS3________________________'
   render json: SENIORS3
 
 when params['q'] == "SELECT ct10_id,nhw65o_p,aa65o_p,as65o_p,lat65o_p FROM b17020_poverty_by_race_age_acs_ct WHERE acs_year =  2011-15"
+  puts '_____________________SENIORS4________________________'
   render json: SENIORS4
 
 when params['q'] == "SELECT ct10_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_ct WHERE acs_year =  2011-15"
+  puts '_____________________SENIORS5________________________'
   render json: SENIORS5
 
-when params['q'] == "SELECT ct10_id, muni_id FROM table_datakeys_ct10"
-  render json: SENIORS6
+  # when params['q'] == "SELECT ct10_id, muni_id FROM table_datakeys_ct10"
+  #   render json: SENIORS6
+  #   same as EMPLOYMENT7
 
 
-  #  SENIORS ..............................................................................................
+  #  ..............................................................................................
 
 
 
