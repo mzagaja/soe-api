@@ -106,6 +106,9 @@ class Api::MainController < ApplicationController
     when params['q'] == "SELECT districtid,all_pa_p,whi_pa_p,aa_pa_p,as_pa_p,lat_pa_p,district FROM educ_mcas_gr10_math_by_year_districts WHERE schoolyear = '2014-15'"
       render json: EDUCATION2
 
+    when params['q'] == "SELECT msa_id,nhwue_p,aaue_p,asue_p,latue_p FROM c23002_employment_by_race_age_acs_msa WHERE msa_id = '14460'"
+      render json: EMPLOYMENT1
+
     when params['q'] == "SELECT muni_id,nhwue_p,aaue_p,asue_p,latue_p,municipal FROM c23002_employment_by_race_age_acs_m WHERE acs_year = '2011-15'"
       render json: EMPLOYMENT2
 
@@ -113,48 +116,37 @@ class Api::MainController < ApplicationController
       render json: EMPLOYMENT3
 
     when params['q'] == "SELECT msa_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_msa WHERE acs_year = '2011-15' AND msa_id = '14460'"
-      # "SELECT msa_id,nhwue_p,aaue_p,asue_p,latue_p FROM c23002_employment_by_race_age_acs_msa WHERE msa_id = 14460"
       render json: EMPLOYMENT4
 
     when params['q'] == "SELECT muni_id,unemp_p FROM b23025_employment_acs_m WHERE acs_year = '2011-15'"
       render json: EMPLOYMENT5
 
+    when params['q'] == "SELECT ct10_id,unemp_p FROM b23025_employment_acs_ct WHERE acs_year = '2011-15'"
+      render json: EMPLOYMENT6
+
     when params['q'] == "SELECT ct10_id, muni_id FROM table_datakeys_ct10"
       render json: EMPLOYMENT7
 
-    when params['q'] == "SELECT * FROM health_births_lbw_race_educ_m WHERE muni_id=352 AND cal_years IN (2005-09,2010-14)"
+    when params['q'] == "SELECT * FROM health_births_lbw_race_educ_m WHERE muni_id=352 AND cal_years IN ('2005-09','2010-14')"
       render json: HEALTH2
 
     when params['q'] == "SELECT muni_id,nhw65o_p,aa65o_p,as65o_p,lat65o_p,municipal FROM b17020_poverty_by_race_age_acs_m WHERE acs_year = '2011-15'"
-      puts '_____________________SENIORS2________________________'
       render json: SENIORS2
 
     when params['q'] == "SELECT muni_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_m WHERE acs_year = '2011-15'"
-      puts '_____________________SENIORS3________________________'
       render json: SENIORS3
 
     when params['q'] == "SELECT ct10_id,nhw65o_p,aa65o_p,as65o_p,lat65o_p FROM b17020_poverty_by_race_age_acs_ct WHERE acs_year = '2011-15'"
-      puts '_____________________SENIORS4________________________'
       render json: SENIORS4
 
-    when params['q'] == "SELECT ct10_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_ct WHERE acs_year =  2011-15"
-      puts '_____________________SENIORS5________________________'
+    when params['q'] == "SELECT ct10_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_ct WHERE acs_year = '2011-15'"
       render json: SENIORS5
 
     when params['q'] == "SELECT muni_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi,municipal FROM b19013_mhi_race_acs_m WHERE acs_year = '2011-15'"
-      # "SELECT muni_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi,municipal FROM b19013_mhi_race_acs_m WHERE acs_year = '2011-15'"
       render json: INCOME2
 
     when params['q'] == "SELECT ct10_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_ct WHERE acs_year = '2011-15'"
-                        # "SELECT ct10_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_ct WHERE acs_year = '2011-15'"
-                        # "SELECT ct10_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_ct WHERE acs_year = 2011-15"
-                        # "SELECT ct10_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_ct WHERE acs_year = 2011-15"
       render json: INCOME3
-
-    # when params['q'] == "SELECT msa_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_msa WHERE acs_year = '2011-15' AND msa_id = '14460'"
-    #   render json: INCOME4
-
-
 
     else
     end
@@ -176,37 +168,9 @@ class Api::MainController < ApplicationController
     render json: EDUCATION2
   end
 
-  def employment1
-    render json: EMPLOYMENT1
-  end
-
-  def employment2
-    render json: EMPLOYMENT2
-  end
-
-  def employment3
-    render json: EMPLOYMENT3
-  end
-
-  def employment4
-    render json: EMPLOYMENT4
-  end
-
-  def employment5
-    render json: EMPLOYMENT5
-  end
-
-  def employment6
-    render json: EMPLOYMENT6
-  end
-
-  def employment7
-    render json: EMPLOYMENT7
-  end
-
-  def health1
-    render json: HEALTH1
-  end
+  # def health1
+  #   render json: HEALTH1
+  # end
 
   def health2
     render json: HEALTH2
@@ -218,70 +182,6 @@ class Api::MainController < ApplicationController
 
   def home_ownership2
     render json: HOME_OWNERSHIP2
-  end
-
-  def housing1
-    render json: HOUSING1
-  end
-
-  def housing2
-    render json: HOUSING2
-  end
-
-  def housing3
-    render json: HOUSING3
-  end
-
-  def housing4
-    render json: HOUSING4
-  end
-
-  def housing5
-    render json: HOUSING5
-  end
-
-  # def income1
-  #   render json: INCOME1
-  # end
-
-  # def income2
-  #   render json: INCOME2
-  # end
-
-  # def income3
-  #   render json: INCOME3
-  # end
-
-  # def income4
-  #   render json: INCOME4
-  # end
-
-  # def income5
-  #   render json: INCOME5
-  # end
-
-  def seniors1
-    render json: SENIORS1
-  end
-
-  def seniors2
-    render json: SENIORS2
-  end
-
-  def seniors3
-    render json: SENIORS3
-  end
-
-  def seniors4
-    render json: SENIORS4
-  end
-
-  def seniors5
-    render json: SENIORS5
-  end
-
-  def seniors6
-    render json: SENIORS6
   end
 
 end
