@@ -31,6 +31,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
+gem 'figaro'
+gem 'capistrano'
+gem 'capistrano-bundler'
+gem 'capistrano-passenger', '>= 0.1.1'
+gem 'capistrano-rails'
+gem 'capistrano-rvm'
+gem 'capistrano-figaro-yml', '~> 1.0.2'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

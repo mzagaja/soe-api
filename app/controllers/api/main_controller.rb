@@ -147,7 +147,6 @@ class Api::MainController < ApplicationController
 
     when params['q'] == "SELECT ct10_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_ct WHERE acs_year = '2011-15'"
       render json: INCOME3
-
     else
     end
   end
@@ -167,10 +166,6 @@ class Api::MainController < ApplicationController
   def education2
     render json: EDUCATION2
   end
-
-  # def health1
-  #   render json: HEALTH1
-  # end
 
   def health2
     render json: HEALTH2

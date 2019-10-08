@@ -81,5 +81,7 @@ test:
 production:
   <<: *default
   database: soe-api_production
-  username: soe-api
+  username: postgres
   password: <%= ENV['SOE-API_DATABASE_PASSWORD'] %>
+  host: <%= ENV['SOE-API_DATABASE_HOST'] %>
+  port: <%= ENV['SOE-API_DATABASE_PORT'] %>
