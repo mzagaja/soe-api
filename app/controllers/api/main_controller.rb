@@ -95,7 +95,6 @@ class Api::MainController < ApplicationController
   require_relative '../../data/seniors/seniors6'
   include Seniors6
 
-
   def main
     case
     when params['q'] == "SELECT muni_id,nhwhi_00p,nhwhi_10p,nhwh_pdif,nhaa_pdif,lat_pdif,nhas_pdif,municipal FROM demo_pop_race_00_10m"
@@ -104,87 +103,85 @@ class Api::MainController < ApplicationController
     when params['q'] == "SELECT * from pubsafety_inmate_crimes_race_by_year_m"
       render json: CRIMINAL_JUSTICE2
 
-    when params['q'] == "SELECT districtid,all_pa_p,whi_pa_p,aa_pa_p,as_pa_p,lat_pa_p,district FROM educ_mcas_gr10_math_by_year_districts WHERE schoolyear = %272014-15%27"
+    when params['q'] == "SELECT districtid,all_pa_p,whi_pa_p,aa_pa_p,as_pa_p,lat_pa_p,district FROM educ_mcas_gr10_math_by_year_districts WHERE schoolyear = '2014-15'"
       render json: EDUCATION2
 
+    when params['q'] == "SELECT msa_id,nhwue_p,aaue_p,asue_p,latue_p FROM c23002_employment_by_race_age_acs_msa WHERE msa_id = '14460'"
+      render json: EMPLOYMENT1
 
-    # when params['q'] == "SELECT muni_id,nhwhi_00p,nhwhi_10p,nhwh_pdif,nhaa_pdif,lat_pdif,nhas_pdif,municipal FROM demo_pop_race_00_10m"
-
-    when params['q'] == "SELECT muni_id,nhwue_p,aaue_p,asue_p,latue_p,municipal FROM c23002_employment_by_race_age_acs_m WHERE acs_year = %272011-15%27"
+    when params['q'] == "SELECT muni_id,nhwue_p,aaue_p,asue_p,latue_p,municipal FROM c23002_employment_by_race_age_acs_m WHERE acs_year = '2011-15'"
       render json: EMPLOYMENT2
 
-    when params['q'] == "SELECT ct10_id,nhwue_p,aaue_p,asue_p,latue_p FROM c23002_employment_by_race_age_acs_ct WHERE acs_year = %272011-15%27"
+    when params['q'] == "SELECT ct10_id,nhwue_p,aaue_p,asue_p,latue_p FROM c23002_employment_by_race_age_acs_ct WHERE acs_year = '2011-15'"
       render json: EMPLOYMENT3
 
-    when params['q'] == "SELECT msa_id,nhwue_p,aaue_p,asue_p,latue_p FROM c23002_employment_by_race_age_acs_msa WHERE msa_id = %2714460%27"
+    when params['q'] == "SELECT msa_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_msa WHERE acs_year = '2011-15' AND msa_id = '14460'"
       render json: EMPLOYMENT4
 
-    when params['q'] == "SELECT muni_id,unemp_p FROM b23025_employment_acs_m WHERE acs_year = %272011-15%27"
+    when params['q'] == "SELECT muni_id,unemp_p FROM b23025_employment_acs_m WHERE acs_year = '2011-15'"
       render json: EMPLOYMENT5
+
+    when params['q'] == "SELECT ct10_id,unemp_p FROM b23025_employment_acs_ct WHERE acs_year = '2011-15'"
+      render json: EMPLOYMENT6
 
     when params['q'] == "SELECT ct10_id, muni_id FROM table_datakeys_ct10"
       render json: EMPLOYMENT7
 
-    when params['q'] == "SELECT * FROM health_births_lbw_race_educ_m WHERE muni_id=%27352%27 AND cal_years IN (%272005-09%27,%272010-14%27)"
+    when params['q'] == "SELECT * FROM health_births_lbw_race_educ_m WHERE muni_id=352 AND cal_years IN ('2005-09','2010-14')"
       render json: HEALTH2
 
+    when params['q'] == "SELECT muni_id,nhw65o_p,aa65o_p,as65o_p,lat65o_p,municipal FROM b17020_poverty_by_race_age_acs_m WHERE acs_year = '2011-15'"
+      render json: SENIORS2
 
-      # def home_ownership1
-        # render json: HOME_OWNERSHIP1
+    when params['q'] == "SELECT muni_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_m WHERE acs_year = '2011-15'"
+      render json: SENIORS3
 
-      # def home_ownership2
-        # render json: HOME_OWNERSHIP2
+    when params['q'] == "SELECT ct10_id,nhw65o_p,aa65o_p,as65o_p,lat65o_p FROM b17020_poverty_by_race_age_acs_ct WHERE acs_year = '2011-15'"
+      render json: SENIORS4
 
-      # def housing1
-        # render json: HOUSING1
+    when params['q'] == "SELECT ct10_id,pov_65o_p FROM b17001_poverty_by_age_gender_acs_ct WHERE acs_year = '2011-15'"
+      render json: SENIORS5
 
-      # def housing2
-        # render json: HOUSING2
+    when params['q'] == "SELECT muni_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi,municipal FROM b19013_mhi_race_acs_m WHERE acs_year = '2011-15'"
+      render json: INCOME2
 
-      # def housing3
-        # render json: HOUSING3
+    when params['q'] == "SELECT ct10_id,mhi,nhw_mhi,aa_mhi,as_mhi,lat_mhi FROM b19013_mhi_race_acs_ct WHERE acs_year = '2011-15'"
+      render json: INCOME3
 
-      # def housing4
-        # render json: HOUSING4
-
-      # def housing5
-        # render json: HOUSING5
-
-      # def income1
-        # render json: INCOME1
-
-      # def income2
-        # render json: INCOME2
-
-      # def income3
-        # render json: INCOME3
-
-      # def income4
-        # render json: INCOME4
-
-      # def income5
-        # render json: INCOME5
-
-      # def seniors1
-        # render json: SENIORS1
-
-      # def seniors2
-        # render json: SENIORS2
-
-      # def seniors3
-        # render json: SENIORS3
-
-      # def seniors4
-        # render json: SENIORS4
-
-      # def seniors5
-        # render json: SENIORS5
-
-      # def seniors6
-        # render json: SENIORS6
-
-      else
-      end
+    else
     end
-
   end
+
+  def criminal_justice1
+    render json: CRIMINAL_JUSTICE1
+  end
+
+  def criminal_justice2
+    render json: CRIMINAL_JUSTICE2
+  end
+
+  def education1
+    render json: EDUCATION1
+  end
+
+  def education2
+    render json: EDUCATION2
+  end
+
+  # def health1
+  #   render json: HEALTH1
+  # end
+
+  def health2
+    render json: HEALTH2
+  end
+
+  def home_ownership1
+    render json: HOME_OWNERSHIP1
+  end
+
+  def home_ownership2
+    render json: HOME_OWNERSHIP2
+  end
+
+end
