@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   root 'api/main#main'
 
   namespace :api do
-    # get '/main', to: 'main#main'
     get '/', to: 'main#main'
     get '/diversity1', to: 'main#main'
     get '/criminal_justice1', to: 'main#criminal_justice1'
